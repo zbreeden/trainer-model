@@ -1,1 +1,56 @@
+<!doctype html>
+<li data-idx="${i}">
+<label>
+<input type="checkbox" ${done? 'checked':''} data-scroll="${s.id}" data-quest="${i}" />
+<span class="${done? 'done':''}">${q.label}</span>
+</label>
+${q.timebox_min? `<span class="pill" title="timebox">${q.timebox_min}m</span>`:''}
+${q.artifact? ` · <a href="${q.artifact}" target="_blank" rel="noopener">artifact</a>`:''}
+</li>`;
+}).join('')}
+</ul>
+${s.ritual? `<div class="meta"><div>Ritual: ${s.ritual.cadence||'—'}</div><div>Streak goal: ${s.ritual.streak_goal||'—'}</div></div>`:''}
+<div style="margin-top:10px">
+<button data-action="open" data-scroll="${s.id}">Open</button>
+<button data-action="share" data-scroll="${s.id}">Share</button>
+</div>
+</article>`).join('');
+};
 
+// UI wiring
+document.addEventListener('change', e => {
+const cb = e.target;
+if (cb && cb.matches('input[type="checkbox"][data-scroll]')) {
+const sid = cb.getAttribute('data-scroll');
+const idx = Number(cb.getAttribute('data-quest'));
+setQuestDone(sid, idx, cb.checked);
+}
+});
+
+document.addEventListener('click', e => {
+const b = e.target.closest('button[data-action]');
+if (!b) return;
+const action = b.getAttribute('data-action');
+const sid = b.getAttribute('data-scroll');
+track(`scroll_${action}`, { scrollId: sid });
+if (action === 'share') {
+const url = location.href;
+navigator.clipboard?.writeText(url);
+b.textContent = 'Copied link';
+setTimeout(()=> b.textContent = 'Share', 1200);
+}
+if (action === 'open') {
+// If you create a detail page later, route there; for now, just jump to card
+document.querySelector(`[data-id="${sid}"]`)?.scrollIntoView({behavior:'smooth'});
+}
+});
+
+// Filters
+el('#statusFilter').addEventListener('input', e => { state.filterStatus = e.target.value; render(); });
+el('#tagFilter').addEventListener('input', e => { state.filterTag = e.target.value; render(); });
+el('#resetBtn').addEventListener('click', () => { state.filterStatus=''; state.filterTag=''; el('#statusFilter').value=''; el('#tagFilter').value=''; render(); });
+
+loadYaml();
+</script>
+</body>
+</html>
