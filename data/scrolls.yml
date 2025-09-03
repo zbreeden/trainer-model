@@ -1,55 +1,63 @@
-# Minimal schema
-ritual:
-cadence: daily
-streak_goal: 10
-quests:
-- label: Setup: modules, let/const, arrays/objects
-artifact: pages/js-notes.md
-timebox_min: 45
-pass: "Notes with working code snippets"
-- label: DOM + events (render a list, click handlers)
-artifact: pages/dom-demo.html
-timebox_min: 45
-pass: "Buttons update text and state"
-- label: Fetch + async/await with retries
-artifact: scripts/fetch-demo.js
-timebox_min: 60
-pass: "Handles 404 + network error gracefully"
-- label: dataLayer helper + GA4 DebugView
-artifact: scripts/tracker.js
-timebox_min: 45
-pass: "Custom events visible in DebugView"
-- label: Capstone: YAML → cards on this page
-artifact: index.html
-timebox_min: 60
-pass: "Renders scrolls with filters + progress"
+- id: js-micro-sprint
+  title: "JavaScript Micro-Sprint (2 weeks)"
+  orbit: "Core Skills"
+  glyph: "🧭"
+  status: active
+  xp: 200
+  tags: ["javascript", "frontend", "ga4", "gtm"]
+  start: 2025-09-03
+  due: 2025-09-16
+  ritual:
+    cadence: daily
+    streak_goal: 10
+  quests:
+    - label: "Setup: modules, let/const, arrays/objects"
+      artifact: pages/js-notes.md
+      timebox_min: 45
+      pass: "Notes with working code snippets"
+    - label: "DOM + events (render a list, click handlers)"
+      artifact: pages/dom-demo.html
+      timebox_min: 45
+      pass: "Buttons update text and state"
+    - label: "Fetch + async/await with retries"
+      artifact: scripts/fetch-demo.js
+      timebox_min: 60
+      pass: "Handles 404 + network error gracefully"
+    - label: "dataLayer helper + GA4 DebugView"
+      artifact: scripts/tracker.js
+      timebox_min: 45
+      pass: "Custom events visible in DebugView"
+    - label: "Capstone: YAML → cards on this page"
+      artifact: index.html
+      timebox_min: 60
+      pass: "Renders scrolls with filters + progress"
 
 - id: gtm-ga4-sprint
-title: "GTM + GA4 Sprint (1 week)"
-orbit: "Delivery & Insight"
-glyph: "📈"
-status: planned
-xp: 150
-tags: ["analytics", "ga4", "gtm"]
-start: 2025-09-17
-due: 2025-09-23
-ritual:
-cadence: daily
-streak_goal: 5
-quests:
-- label: GTM container + GA4 config tag on Trainer
-artifact: index.html
-timebox_min: 30
-pass: "GTM debug shows hits"
-- label: Custom event: scroll_opened
-artifact: scripts/tracker.js
-timebox_min: 30
-pass: "Event with params in DebugView"
-- label: Define 3 engagement events (click, complete, share)
-artifact: scripts/tracker.js
-timebox_min: 45
-pass: "Audiences or Explorations set up"
-- label: Retro + README update
-artifact: README.md
-timebox_min: 20
-pass: "What worked, what to improve"
+  title: "GTM + GA4 Sprint (1 week)"
+  orbit: "Delivery & Insight"
+  glyph: "📈"
+  status: planned
+  xp: 150
+  tags: ["analytics", "ga4", "gtm"]
+  start: 2025-09-17
+  due: 2025-09-23
+  ritual:
+    cadence: daily
+    streak_goal: 5
+  quests:
+    - label: "GTM container + GA4 config tag on Trainer"
+      artifact: index.html
+      timebox_min: 30
+      pass: "GTM preview shows hits"
+    - label: "Custom event: scroll_opened"
+      artifact: scripts/tracker.js
+      timebox_min: 30
+      pass: "Event with params in DebugView"
+    - label: "Define 3 engagement events (click, complete, share)"
+      artifact: scripts/tracker.js
+      timebox_min: 45
+      pass: "Audiences or Explorations set up"
+    - label: "Retro + README update"
+      artifact: README.md
+      timebox_min: 20
+      pass: "What worked, what to improve"
