@@ -62,3 +62,67 @@
       timebox_min: 20
       pass: "What worked, what to improve"
 
+- id: cbap-cert
+  title: "CBAP Certificate"
+  orbit: "Credentials"
+  glyph: "🧩"
+  status: active
+  xp: 500
+  tags: ["credential", "cbap", "business-analysis", "every-other-day"]
+  start: 2025-08-15
+  due: 2025-09-30
+  ritual:
+    cadence: every-other-day
+    streak_goal: 15   # ~29 days total → ~15 EOD sessions
+  quests:
+    - label: "Module 1: Introduction (4 days)"
+      artifact: pages/cbap/intro-notes.md
+      timebox_min: 60
+      pass: "Outline knowledge areas + study plan in README"
+    - label: "Module 2: Key Definitions (4 days)"
+      artifact: pages/cbap/definitions-glossary.md
+      timebox_min: 60
+      pass: "Glossary of 25+ CBAP terms with examples"
+    - label: "Module 3: Strategy Analysis (3 weeks)"
+      artifact: pages/cbap/strategy-analysis-playbook.md
+      timebox_min: 90
+      pass: "Playbook: context → stakeholders → options → risks with 1 worked case"
+    - label: "Module 4: Final Assessment (2 hours)"
+      artifact: pages/cbap/final-assessment.md
+      timebox_min: 120
+      pass: "Complete mock exam; note weak areas + remediation steps"
+
+- id: ibm-data-science-cert
+  title: "IBM Data Science Certificate"
+  orbit: "Credentials"
+  glyph: "🧪"
+  status: active
+  xp: 500
+  tags: ["credential", "ibm", "data-science", "every-other-day"]
+  start: 2025-08-15
+  due: 2025-09-30  
+  ritual:
+    cadence: every-other-day
+    streak_goal: 12   # ~24 days total → ~12 EOD sessions
+  quests:
+    - label: "Module 1: What is Data Analytics? (3 days)"
+      artifact: pages/ibm/what-is-data-analytics.md
+      timebox_min: 60
+      pass: "Notes + 5 real-world examples mapped to DA lifecycle"
+    - label: "Module 2: The Data Ecosystem (3 days)"
+      artifact: pages/ibm/data-ecosystem.md
+      timebox_min: 60
+      pass: "Diagram of roles/tools; map to FourTwenty stack"
+    - label: "Module 3: Gathering & Wrangling Data (1 week)"
+      artifact: pages/ibm/wrangling-lab.md
+      timebox_min: 90
+      pass: "Mini ETL lab (CSV→cleaned dataset) with documented steps"
+    - label: "Module 4: Mining, Visualizing & Communicating (1 week)"
+      artifact: pages/ibm/mining-visualizing.md
+      timebox_min: 90
+      pass: "One small analysis + chart + narrative takeaway"
+    - label: "Module 5: Careers & Data in Action (4 days)"
+      artifact: pages/ibm/career-opportunities.md
+      timebox_min: 60
+      pass: "Role map + 3 target job postings + skills gap list"
+
