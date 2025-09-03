@@ -126,3 +126,194 @@
       timebox_min: 60
       pass: "Role map + 3 target job postings + skills gap list"
 
+- id: advanced-excel
+  title: "Advanced Excel"
+  orbit: "Core Skills"
+  glyph: "🧮"
+  status: planned
+  xp: 300
+  tags: ["datacamp", "excel", "analytics", "every-other-day"]
+  ritual:
+    cadence: every-other-day
+    streak_goal: 6   # ~2 weeks EOD
+  quests:
+    - label: "Formulas Mastery: INDEX/XMATCH, LET, LAMBDA"
+      artifact: pages/excel/formulas-notes.md
+      timebox_min: 60
+      pass: "Cheatsheet with 3 worked examples per function"
+    - label: "Pivot Tables & Power Pivot"
+      artifact: pages/excel/pivots-playbook.md
+      timebox_min: 60
+      pass: "One tidy pivot model + measures listed"
+    - label: "Power Query: Get & Transform basics"
+      artifact: pages/excel/power-query-lab.md
+      timebox_min: 60
+      pass: "Step-by-step M steps captured with before/after"
+    - label: "Charts & Sparklines"
+      artifact: pages/excel/viz-gallery.md
+      timebox_min: 45
+      pass: "Mini gallery (3 charts + 1 sparkline) with when-to-use notes"
+    - label: "Data Validation & What-If"
+      artifact: pages/excel/validation-whatif.md
+      timebox_min: 45
+      pass: "Working sheet with dropdowns + Goal Seek scenario"
+
+- id: python-core
+  title: "Python (Analyst Core)"
+  orbit: "Core Skills"
+  glyph: "🐍"
+  status: active
+  xp: 300
+  tags: ["datacamp", "python", "pandas", "every-other-day"]
+  ritual:
+    cadence: every-other-day
+    streak_goal: 8   # ~3 weeks EOD
+  quests:
+    - label: "Syntax Refresh: functions, modules, venv"
+      artifact: pages/python/syntax-refresh.md
+      timebox_min: 45
+      pass: "Notes + a tiny util that runs"
+    - label: "pandas Lab: load → clean → describe"
+      artifact: pages/python/pandas-wrangling.md
+      timebox_min: 75
+      pass: "Notebook or script with 5+ operations (select, filter, groupby)"
+    - label: "Plotting: matplotlib quick gallery"
+      artifact: pages/python/mpl-gallery.md
+      timebox_min: 60
+      pass: "3 plots with labeled axes + takeaway bullets"
+    - label: "Data Quality Utils"
+      artifact: pages/python/qa-utils.md
+      timebox_min: 60
+      pass: "Functions for nulls/dupes/outlier flags + examples"
+    - label: "Capstone: read YAML → summarize Trainer scrolls"
+      artifact: pages/python/trainer-yaml-report.md
+      timebox_min: 60
+      pass: "Script prints counts by status/tags; output pasted here"
+
+- id: power-bi-core
+  title: "Power BI (Core)"
+  orbit: "Delivery & Insight"
+  glyph: "📊"
+  status: planned
+  xp: 300
+  tags: ["datacamp", "power-bi", "dax", "every-other-day"]
+  ritual:
+    cadence: every-other-day
+    streak_goal: 6   # ~2 weeks EOD
+  quests:
+    - label: "Modeling: star schema & relationships"
+      artifact: pages/powerbi/model-notes.md
+      timebox_min: 60
+      pass: "Diagram + rationale; 3 common pitfalls listed"
+    - label: "DAX Essentials: CALCULATE, FILTER, iterators"
+      artifact: pages/powerbi/dax-essentials.md
+      timebox_min: 75
+      pass: "5 measures with comments and expected results"
+    - label: "Visuals & UX: a tidy canvas"
+      artifact: pages/powerbi/viz-ux-checklist.md
+      timebox_min: 60
+      pass: "Before/after screenshots or mockups with checklist"
+    - label: "Refresh & Gateways (concept)"
+      artifact: pages/powerbi/refresh-notes.md
+      timebox_min: 45
+      pass: "Notes on scheduled refresh + dataflows; gotchas"
+    - label: "Capstone: mini dashboard spec"
+      artifact: pages/powerbi/dashboard-plan.md
+      timebox_min: 60
+      pass: "One-pager spec (KPIs, visuals, data model)"
+
+- id: sql-core
+  title: "SQL (Analyst Core)"
+  orbit: "Core Skills"
+  glyph: "🛢️"
+  status: active
+  xp: 300
+  tags: ["datacamp", "sql", "analytics", "every-other-day"]
+  ritual:
+    cadence: every-other-day
+    streak_goal: 8   # ~3 weeks EOD
+  quests:
+    - label: "SELECT/JOIN Katas"
+      artifact: pages/sql/joins-kata.md
+      timebox_min: 45
+      pass: "8 practice queries with expected results"
+    - label: "Window Functions: rank, moving avg, percentiles"
+      artifact: pages/sql/windows-lab.md
+      timebox_min: 60
+      pass: "3 window patterns with explanations"
+    - label: "CTEs & Subqueries"
+      artifact: pages/sql/ctes-subqueries.md
+      timebox_min: 60
+      pass: "2 problems solved both ways + pros/cons"
+    - label: "QA Queries & Row-level Checks"
+      artifact: pages/sql/qa-checks.md
+      timebox_min: 45
+      pass: "Checklist + sample queries for counts, dupes, ranges"
+    - label: "Capstone: funnel query"
+      artifact: pages/sql/funnel-query.md
+      timebox_min: 60
+      pass: "From events table: step counts + rates; paste results"
+
+- id: r-core
+  title: "R (Analyst Core)"
+  orbit: "Core Skills"
+  glyph: "📘"
+  status: planned
+  xp: 300
+  tags: ["datacamp", "r", "dplyr", "ggplot2", "every-other-day"]
+  ritual:
+    cadence: every-other-day
+    streak_goal: 6   # ~2 weeks EOD
+  quests:
+    - label: "Setup & Basics: R/RStudio, scripts, packages"
+      artifact: pages/r/setup-basics.md
+      timebox_min: 45
+      pass: "Hello R + project structure notes"
+    - label: "dplyr Verbs: select/filter/mutate/summarise"
+      artifact: pages/r/dplyr-lab.md
+      timebox_min: 60
+      pass: "One pipeline with 5 verbs and output"
+    - label: "tidyr Reshape: pivot_longer/pivot_wider"
+      artifact: pages/r/tidyr-reshape.md
+      timebox_min: 45
+      pass: "Before/after table snippets with commentary"
+    - label: "ggplot2: small gallery"
+      artifact: pages/r/ggplot-gallery.md
+      timebox_min: 60
+      pass: "3 plots with labeled aesthetics + takeaway"
+    - label: "Capstone: mini report (R Markdown)"
+      artifact: pages/r/mini-report.md
+      timebox_min: 60
+      pass: "Rmd outline or rendered HTML with a simple chart"
+
+- id: power-query-essentials
+  title: "Power Query (M) Essentials"
+  orbit: "Core Skills"
+  glyph: "🧹"
+  status: planned
+  xp: 300
+  tags: ["power-query", "m-language", "excel", "power-bi", "every-other-day"]
+  ritual:
+    cadence: every-other-day
+    streak_goal: 6   # ~2 weeks EOD
+  quests:
+    - label: "Connect & Shape: CSV/Excel → tidy table"
+      artifact: pages/powerquery/connect-shape.md
+      timebox_min: 60
+      pass: "Before/after screenshot + step list"
+    - label: "Merge vs Append (joins & stacking)"
+      artifact: pages/powerquery/merge-append.md
+      timebox_min: 60
+      pass: "Two examples with expected row counts"
+    - label: "Parameters & Custom Functions"
+      artifact: pages/powerquery/parameters-functions.md
+      timebox_min: 75
+      pass: "Reusable function (e.g., date cleanup) + parameterized source"
+    - label: "Data Types, Errors & Auditing"
+      artifact: pages/powerquery/types-errors-audit.md
+      timebox_min: 60
+      pass: "Type map + handled errors; documented steps"
+    - label: "Hand-off: Load to Power BI / Excel Data Model"
+      artifact: pages/powerquery/load-model.md
+      timebox_min: 60
+      pass: "Model screenshot + notes on refresh behavior"
