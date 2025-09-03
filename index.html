@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="ft-module" content="trainer">
   <title>🧭 The Trainer</title>
   <meta name="color-scheme" content="light dark" />
 
@@ -37,7 +38,26 @@
     button { border-radius: 999px; padding: 6px 10px; border: 1px solid #777; background: none; cursor: pointer; }
     button:active { transform: translateY(1px); }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+.btn-back {
+  margin-left: auto;
+  border: 1px solid #777;
+  border-radius: 999px;
+  padding: 6px 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-back:active { transform: translateY(1px); }
+    
   </style>
+
+<a class="btn-back"
+   href="https://zbreeden.github.io/FourTwentyAnalytics/?"
+   onclick="window.dataLayer = window.dataLayer || [];
+            dataLayer.push({event:'nav_back', to:'sandbox'});">
+  ← Back to Sandbox
+</a>
+  
 </head>
 <body>
   <!-- GTM noscript -->
