@@ -15,3 +15,7 @@ Property details
 PROPERTY ID: 503113160 
 Property name FourTwenty Analytics
 
+
+The GTM tags above will be placed in every page of my constellation to enable front end analytics.
+Eventually, FourTwenty Analytics will have its own website, so this tagging system will be critical.
+
