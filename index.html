@@ -1,56 +1,75 @@
 <!doctype html>
-<li data-idx="${i}">
-<label>
-<input type="checkbox" ${done? 'checked':''} data-scroll="${s.id}" data-quest="${i}" />
-<span class="${done? 'done':''}">${q.label}</span>
-</label>
-${q.timebox_min? `<span class="pill" title="timebox">${q.timebox_min}m</span>`:''}
-${q.artifact? ` · <a href="${q.artifact}" target="_blank" rel="noopener">artifact</a>`:''}
-</li>`;
-}).join('')}
-</ul>
-${s.ritual? `<div class="meta"><div>Ritual: ${s.ritual.cadence||'—'}</div><div>Streak goal: ${s.ritual.streak_goal||'—'}</div></div>`:''}
-<div style="margin-top:10px">
-<button data-action="open" data-scroll="${s.id}">Open</button>
-<button data-action="share" data-scroll="${s.id}">Share</button>
-</div>
-</article>`).join('');
-};
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🧭 The Trainer</title>
+  <meta name="color-scheme" content="light dark" />
 
-// UI wiring
-document.addEventListener('change', e => {
-const cb = e.target;
-if (cb && cb.matches('input[type="checkbox"][data-scroll]')) {
-const sid = cb.getAttribute('data-scroll');
-const idx = Number(cb.getAttribute('data-quest'));
-setQuestDone(sid, idx, cb.checked);
-}
-});
+  <!-- Google Tag Manager -->
+  <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+    f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WVC4SNLB');
+  </script>
+  <!-- End Google Tag Manager -->
 
-document.addEventListener('click', e => {
-const b = e.target.closest('button[data-action]');
-if (!b) return;
-const action = b.getAttribute('data-action');
-const sid = b.getAttribute('data-scroll');
-track(`scroll_${action}`, { scrollId: sid });
-if (action === 'share') {
-const url = location.href;
-navigator.clipboard?.writeText(url);
-b.textContent = 'Copied link';
-setTimeout(()=> b.textContent = 'Share', 1200);
-}
-if (action === 'open') {
-// If you create a detail page later, route there; for now, just jump to card
-document.querySelector(`[data-id="${sid}"]`)?.scrollIntoView({behavior:'smooth'});
-}
-});
+  <!-- js-yaml for YAML parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js" defer></script>
 
-// Filters
-el('#statusFilter').addEventListener('input', e => { state.filterStatus = e.target.value; render(); });
-el('#tagFilter').addEventListener('input', e => { state.filterTag = e.target.value; render(); });
-el('#resetBtn').addEventListener('click', () => { state.filterStatus=''; state.filterTag=''; el('#statusFilter').value=''; el('#tagFilter').value=''; render(); });
+  <style>
+    :root { --g: 10px; --r: 16px; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    body { margin: 0 auto; padding: 24px; max-width: 1100px; }
+    header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    h1 { font-size: 1.6rem; margin: 0; }
+    .filters { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0 20px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+    .card { border: 1px solid #ccc; border-radius: 14px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.06); background: canvas; }
+    .meta { display: flex; justify-content: space-between; gap: 10px; font-size: .9rem; opacity: .8; margin-top: 6px; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; border: 1px solid #ddd; font-size: .8rem; margin-right: 6px; }
+    .quests { margin-top: 10px; }
+    .quests li { margin: 6px 0; }
+    .pill { font-size: .75rem; padding: 2px 8px; border-radius: 999px; border: 1px solid #ddd; }
+    .done { text-decoration: line-through; opacity: .6; }
+    .footer { margin-top: 28px; font-size: .9rem; opacity: .8; }
+    button { border-radius: 999px; padding: 6px 10px; border: 1px solid #777; background: none; cursor: pointer; }
+    button:active { transform: translateY(1px); }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  </style>
+</head>
+<body>
+  <!-- GTM noscript -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVC4SNLB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-loadYaml();
-</script>
+  <header>
+    <h1>🧭 The Trainer</h1>
+    <span class="pill">WIP ≤ 2</span>
+  </header>
+
+  <section class="filters">
+    <label>
+      <span class="sr-only">Filter by status</span>
+      <select id="statusFilter">
+        <option value="">All statuses</option>
+        <option>active</option>
+        <option>planned</option>
+        <option>done</option>
+      </select>
+    </label>
+    <label>
+      <span class="sr-only">Search tag</span>
+      <input id="tagFilter" type="search" placeholder="#tag…" />
+    </label>
+    <button id="resetBtn">Reset</button>
+  </section>
+
+  <main class="cards" id="cards"></main>
+  <p class="footer">Data source: <code>/data/scrolls.yml</code>. Progress is stored locally.</p>
+
+  <!-- Your app code -->
+  <script type="module" src="./scripts/app.js"></script>
 </body>
 </html>
