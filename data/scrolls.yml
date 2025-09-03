@@ -5,8 +5,6 @@
   status: planned
   xp: 200
   tags: ["javascript", "frontend", "ga4", "gtm"]
-  start: 2025-09-03
-  due: 2025-09-16
   ritual:
     cadence: daily
     streak_goal: 10
