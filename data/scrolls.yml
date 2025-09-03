@@ -2,7 +2,7 @@
   title: "JavaScript Micro-Sprint (2 weeks)"
   orbit: "Core Skills"
   glyph: "🧭"
-  status: active
+  status: planned
   xp: 200
   tags: ["javascript", "frontend", "ga4", "gtm"]
   start: 2025-09-03
@@ -36,7 +36,7 @@
   title: "GTM + GA4 Sprint (1 week)"
   orbit: "Delivery & Insight"
   glyph: "📈"
-  status: planned
+  status: active
   xp: 150
   tags: ["analytics", "ga4", "gtm"]
   start: 2025-09-17
