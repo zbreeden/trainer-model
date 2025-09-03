@@ -13,9 +13,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 Property details
 PROPERTY ID: 503113160 
-Property name FourTwenty Analytics
+Property name: FourTwenty Analytics
 
 
-The GTM tags above will be placed in every page of my constellation to enable front end analytics.
-Eventually, FourTwenty Analytics will have its own website, so this tagging system will be critical.
+##The GTM tags above will be placed in every page of my constellation to enable front end analytics.
+##Eventually, FourTwenty Analytics will have its own website, so this tagging system will be critical.
 
