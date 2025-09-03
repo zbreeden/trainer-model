@@ -162,7 +162,7 @@
   title: "Python (Analyst Core)"
   orbit: "Core Skills"
   glyph: "🐍"
-  status: active
+  status: planned
   xp: 300
   tags: ["datacamp", "python", "pandas", "every-other-day"]
   ritual:
@@ -226,7 +226,7 @@
   title: "SQL (Analyst Core)"
   orbit: "Core Skills"
   glyph: "🛢️"
-  status: active
+  status: planned
   xp: 300
   tags: ["datacamp", "sql", "analytics", "every-other-day"]
   ritual:
