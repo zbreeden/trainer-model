@@ -44,7 +44,7 @@
     streak_goal: 5
   quests:
     - label: "GTM container + GA4 config tag on Trainer"
-      artifact: index.html
+      artifact: pages/gtm+ga4/tags.md
       timebox_min: 30
       pass: "GTM preview shows hits"
     - label: "Custom event: scroll_opened"
