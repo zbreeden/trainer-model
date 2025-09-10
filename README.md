@@ -27,4 +27,29 @@ A living training ground for FourTwenty. Each **scroll** is a focused learning a
 - **Weekly Retro**: log what shipped; queue next quests.
 - **Boss Fight**: mock interview or live demo at end of a scroll.
 
+## Broadcasts
+
+<!-- SIGNAL:START
+id: 2025-09-10-trainer-glossary-merge
+ts_utc: 2025-09-10T10:42:00Z
+title: "Trainer: Glossary_Merge notebook aligns module glossaries to hub"
+summary: >
+  Glossary_Merge.ipynb (built and proven in The Trainer) merges multiple module
+  glossary files into a single canonical `seeds/glossary.yml`. It deduplicates
+  by `key`, unions list fields (`examples`, `see_also`, `tags`), shallow-merges
+  `source`, and writes a clean, sorted output. The process runs in Jupyter or
+  Colab and can be lifted into the hub as a reusable action for constellation-wide
+  seed hygiene.
+tags: [learning, jupyter, colab, automation, glossary, seeds, merge, trainer]
+links:
+  - label: "Glossary_Merge.ipynb (Trainer)"
+    url: "https://github.com/zbreeden/trainer-model/blob/main/notebooks/Glossary_Merge.ipynb"
+  - label: "merge_glossaries.py (script)"
+    url: "https://github.com/zbreeden/trainer-model/blob/main/scripts/merge_glossaries.py"
+  - label: "merge_map.csv (inputs map)"
+    url: "https://github.com/zbreeden/trainer-model/blob/main/data/merge_map.csv"
+  - label: "seeds/glossary.yml (target)"
+    url: "https://github.com/zbreeden/trainer-model/blob/main/seeds/glossary.yml"
+SIGNAL:END -->
+
 License: MIT (or your choice).
