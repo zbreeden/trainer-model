@@ -23,7 +23,7 @@ A living training ground for FourTwenty. Each **scroll** is a focused learning a
 
 ## Rituals & Rules of Play
 - **Daily Pulse** (10–30 min): move at least one quest forward.
-- **WIP Limit = 2** active scrolls.
+- **WIP Limit = 3** active scrolls.
 - **Weekly Retro**: log what shipped; queue next quests.
 - **Boss Fight**: mock interview or live demo at end of a scroll.
 
