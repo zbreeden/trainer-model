@@ -11,19 +11,19 @@
     cadence: daily
     streak_goal: 7
   quests:
-    - label: "Week 1: 3-mile walk/10-minute core/10-minute bodyweight
+    - label: "Week 1: 3-mile walk/10-minute core/10-minute bodyweight"
       artifact: pages/health/week_one.csv
       timebox_min: 630
       pass: "90 minutes per day logged in .csv"
-    - label: "Week 2: 3-mile walk/10-minute core/10-minute bodyweight
+    - label: "Week 2: 3-mile walk/10-minute core/10-minute bodyweight"
       artifact: pages/health/week_two.csv
       timebox_min: 630
       pass: "90 minutes per day logged in .csv"
-    - label: "Week 3: 3-mile walk/15-minute core/15-minute bodyweight
+    - label: "Week 3: 3-mile walk/15-minute core/15-minute bodyweight"
       artifact: pages/health/week_three.csv
       timebox_min: 735
       pass: "105 minutes per day logged in .csv"
-    - label: "Week 4: 3-mile walk/15-minute core/15-minute bodyweight
+    - label: "Week 4: 3-mile walk/15-minute core/15-minute bodyweight"
       artifact: pages/health/week_four.csv
       timebox_min: 735
       pass: "105 minutes per day logged in .csv"
