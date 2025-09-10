@@ -1,7 +1,7 @@
 - Id: health-micro-sprint
   title: "Suitekeeper Maintenance (4 weeks)"
   orbit: "Elemental System"
-  glyph: ""
+  glyph: "🧘"
   status: active
   xp: 250
   tags: ["walking", "bodyweight", "core"]
@@ -92,14 +92,14 @@
       pass: "What worked, what to improve"
 
 - id: cbap-cert
-  title: "CBAP Certificate"
+  title: "CBAP Certificate - Course 1 of 4"
   orbit: "Elemental System"
   glyph: "🧩"
   status: active
   xp: 500
   tags: ["credential", "cbap", "business-analysis", "every-other-day"]
   start: 2025-08-15
-  due: 2025-10-30
+  due: 2025-09-15
   ritual:
     cadence: every-other-day
     streak_goal: 15   # ~29 days total → ~15 EOD sessions
@@ -121,15 +121,15 @@
       timebox_min: 120
       pass: "Complete mock exam; note weak areas + remediation steps"
 
-- id: ibm-data-science-cert
-  title: "IBM Data Science Certificate"
+- id: ibm-data-analyst-cert
+  title: "IBM Data Analyst Certificate - Course 1 of 11"
   orbit: "Elemental System"
   glyph: "🧪"
   status: active
   xp: 500
   tags: ["credential", "ibm", "data-science", "every-other-day"]
   start: 2025-08-15
-  due: 2025-10-30  
+  due: 2025-09-15  
   ritual:
     cadence: every-other-day
     streak_goal: 12   # ~24 days total → ~12 EOD sessions
