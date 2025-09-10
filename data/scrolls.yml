@@ -105,11 +105,11 @@
     streak_goal: 15   # ~29 days total → ~15 EOD sessions
   quests:
     - label: "Module 1: Introduction (4 days)"
-      artifact: pages/cbap/intro-notes.md
+      artifact: pages/cbap/intro-notes.yml
       timebox_min: 60
       pass: "Outline knowledge areas + study plan in README"
     - label: "Module 2: Key Definitions (4 days)"
-      artifact: pages/cbap/definitions-glossary.md
+      artifact: pages/cbap/definitions-glossary.yml
       timebox_min: 60
       pass: "Glossary of 25+ CBAP terms with examples"
     - label: "Module 3: Strategy Analysis (3 weeks)"
@@ -135,15 +135,15 @@
     streak_goal: 12   # ~24 days total → ~12 EOD sessions
   quests:
     - label: "Module 1: What is Data Analytics? (3 days)"
-      artifact: pages/ibm/what-is-data-analytics.md
+      artifact: pages/ibm/what-is-data-analytics.yml
       timebox_min: 60
       pass: "Notes + 5 real-world examples mapped to DA lifecycle"
     - label: "Module 2: The Data Ecosystem (3 days)"
-      artifact: pages/ibm/data-ecosystem.md
+      artifact: pages/ibm/data-ecosystem.yml
       timebox_min: 60
       pass: "Diagram of roles/tools; map to FourTwenty stack"
     - label: "Module 3: Gathering & Wrangling Data (1 week)"
-      artifact: pages/ibm/wrangling-lab.md
+      artifact: pages/ibm/wrangling-lab.yml
       timebox_min: 90
       pass: "Mini ETL lab (CSV→cleaned dataset) with documented steps"
     - label: "Module 4: Mining, Visualizing & Communicating (1 week)"
