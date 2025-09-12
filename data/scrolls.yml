@@ -284,7 +284,7 @@
       pass: "From events table: step counts + rates; paste results"
 
 - id: r-core
-  title: "R (Analyst Core)"
+  title: "Introduction to R"
   orbit: "Core System"
   glyph: "📘"
   status: active
@@ -294,26 +294,30 @@
     cadence: every-other-day
     streak_goal: 6   # ~2 weeks EOD
   quests:
-    - label: "Setup & Basics: R/RStudio, scripts, packages"
-      artifact: pages/r/setup-basics.md
+    - label: "Chapter 1 - How it works"
+      artifact: pages/r/chapter1.md
+      timebox_min: 30
+      pass: "arithmetic, variables, data types"
+    - label: "Chapter 2 - Create a vector"
+      artifact: pages/r/chapter2.md
+      timebox_min: 60
+      pass: "creating, naming, calculating, comparing, selection of vectors"
+    - label: "Chapter 3 - What's a matrix?"
+      artifact: pages/r/chapter3.md
       timebox_min: 45
-      pass: "Hello R + project structure notes"
-    - label: "dplyr Verbs: select/filter/mutate/summarise"
-      artifact: pages/r/dplyr-lab.md
-      timebox_min: 60
-      pass: "One pipeline with 5 verbs and output"
-    - label: "tidyr Reshape: pivot_longer/pivot_wider"
-      artifact: pages/r/tidyr-reshape.md
+      pass: "naming, calculating, adding, selection with matrices"
+    - label: "Chapter 4 - What's a factor and why would you use it?"
+      artifact: pages/r/chapter4.md
       timebox_min: 45
-      pass: "Before/after table snippets with commentary"
-    - label: "ggplot2: small gallery"
-      artifact: pages/r/ggplot-gallery.md
-      timebox_min: 60
-      pass: "3 plots with labeled aesthetics + takeaway"
-    - label: "Capstone: mini report (R Markdown)"
-      artifact: pages/r/mini-report.md
-      timebox_min: 60
-      pass: "Rmd outline or rendered HTML with a simple chart"
+      pass: "levels, summarizing, ordering, comparing with factors"
+    - label: "Chapter 5 - What's a data frame?"
+      artifact: pages/r/chapter5.md
+      timebox_min: 45
+      pass: "creating, selection, sorting data frames"
+    - label: "Chapter 6 - Lists, why would you need them?"
+      artifact: pages/r/chapter6.md
+      timebox_min: 30
+      pass: "creating, naming, selecting elements within lists"
 
 - id: power-query-essentials
   title: "Power Query (M) Essentials"
