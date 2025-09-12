@@ -287,7 +287,7 @@
   title: "R (Analyst Core)"
   orbit: "Core System"
   glyph: "📘"
-  status: planned
+  status: active
   xp: 300
   tags: ["datacamp", "r", "dplyr", "ggplot2", "every-other-day"]
   ritual:
@@ -319,7 +319,7 @@
   title: "Power Query (M) Essentials"
   orbit: "Core System"
   glyph: "🧹"
-  status: active
+  status: planned
   xp: 300
   tags: ["power-query", "m-language", "excel", "power-bi", "every-other-day"]
   ritual:
