@@ -147,7 +147,7 @@
       timebox_min: 90
       pass: "Mini ETL lab (CSV→cleaned dataset) with documented steps"
     - label: "Module 4: Mining, Visualizing & Communicating (1 week)"
-      artifact: pages/ibm/mining-visualizing.md
+      artifact: pages/ibm/mining-visualizing.yml
       timebox_min: 90
       pass: "One small analysis + chart + narrative takeaway"
     - label: "Module 5: Careers & Data in Action (4 days)"
