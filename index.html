@@ -1,86 +1,89 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="ft-module" content="trainer">
-  <title>🧭 The Trainer</title>
-  <meta name="color-scheme" content="light dark" />
-
-  <!-- Google Tag Manager -->
-  <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-    var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-    j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-    f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-WVC4SNLB');
-  </script>
-  <!-- End Google Tag Manager -->
-
-  <!-- js-yaml for YAML parsing -->
-  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js" defer></script>
-
-  <style>
-    :root { --g: 10px; --r: 16px; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
-    body { margin: 0 auto; padding: 24px; max-width: 1100px; }
-    header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
-    h1 { font-size: 1.6rem; margin: 0; }
-    .filters { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0 20px; }
-    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
-    .card { border: 1px solid #ccc; border-radius: 14px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.06); background: canvas; }
-    .meta { display: flex; justify-content: space-between; gap: 10px; font-size: .9rem; opacity: .8; margin-top: 6px; }
-    .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; border: 1px solid #ddd; font-size: .8rem; margin-right: 6px; }
-    .quests { margin-top: 10px; }
-    .quests li { margin: 6px 0; }
-    .pill { font-size: .75rem; padding: 2px 8px; border-radius: 999px; border: 1px solid #ddd; }
-    .btn-back { margin-left: auto; border: 1px solid #777; border-radius: 999px; padding: 6px 10px; text-decoration: none; display: inline-block; }
-    .btn-back:active { transform: translateY(1px); }    
-    .done { text-decoration: line-through; opacity: .6; }
-    .footer { margin-top: 28px; font-size: .9rem; opacity: .8; }
-    button { border-radius: 999px; padding: 6px 10px; border: 1px solid #777; background: none; cursor: pointer; }
-    button:active { transform: translateY(1px); }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; } 
-  </style>
-
-<a class="btn-back"
-   href="https://zbreeden.github.io/FourTwentyAnalytics/?"
-   onclick="window.dataLayer = window.dataLayer || [];
-            dataLayer.push({event:'nav_back', to:'sandbox'});">
-  ← Back to Sandbox
-</a>
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trainer Model - FourTwenty Analytics</title>
+  <meta name="description" content="The Trainer is the upskiller">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🧭</text></svg>">
 </head>
 <body>
-  <!-- GTM noscript -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVC4SNLB"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
   <header>
-    <h1>🧭 The Trainer</h1>
-    <span class="pill">WIP ≤ 3</span>
+    <h1>🧭 Trainer Model</h1>
+    <p>The Trainer is the upskiller</p>
+    <nav>
+      <a href="https://zbreeden.github.io/FourTwentyAnalytics/">← Back to Hub</a> |
+      <a href="https://github.com/zbreeden/trainer-model">Repository</a> |
+      <a href="https://github.com/zbreeden/FourTwentyAnalytics">Hub Source</a>
+    </nav>
   </header>
+  
+  <main>
+    <section>
+      <h2>🌌 Constellation Info</h2>
+      <ul>
+        <li><strong>Orbit</strong>: growth-experiment</li>
+        <li><strong>Status</strong>: seed</li>  
+        <li><strong>Module Key</strong>: <code>trainer_model</code></li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>📡 Latest Signal</h2>
+      <div id="signal-container">
+        <p><em>Loading signal data...</em></p>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Part of the <a href="https://zbreeden.github.io/FourTwentyAnalytics/">FourTwenty Analytics</a> constellation</p>
+  </footer>
 
-  <section class="filters">
-    <label>
-      <span class="sr-only">Filter by status</span>
-      <select id="statusFilter">
-        <option value="">All statuses</option>
-        <option>active</option>
-        <option>planned</option>
-        <option>done</option>
-      </select>
-    </label>
-    <label>
-      <span class="sr-only">Search tag</span>
-      <input id="tagFilter" type="search" placeholder="#tag…" />
-    </label>
-    <button id="resetBtn">Reset</button>
-  </section>
-
-  <main class="cards" id="cards"></main>
-  <p class="footer">Data source: <code>/data/scrolls.yml</code>. Progress is stored locally.</p>
-
-  <!-- Your app code -->
-  <script type="module" src="./scripts/app.js"></script>
+  <script>
+    // Load and display latest signal data
+    async function loadSignalData() {
+      try {
+        const response = await fetch('./signals/latest.json');
+        if (!response.ok) {
+          throw new Error('Signal data not available');
+        }
+        
+        const signal = await response.json();
+        const container = document.getElementById('signal-container');
+        
+        container.innerHTML = `
+          <div style="border: 1px solid #ddd; padding: 1rem; border-radius: 8px; background: #f9f9f9;">
+            <h3>${signal.emoji || '📡'} ${signal.title}</h3>
+            <p><strong>Summary:</strong> ${signal.summary}</p>
+            <p><strong>Broadcast Time:</strong> ${new Date(signal.ts_utc).toLocaleString()}</p>
+            <p><strong>Rating:</strong> <span style="
+              background: ${signal.rating === 'critical' ? '#ff4444' : 
+                         signal.rating === 'high' ? '#ff8800' : 
+                         signal.rating === 'normal' ? '#4CAF50' : '#888'}; 
+              color: white; 
+              padding: 2px 8px; 
+              border-radius: 4px; 
+              font-size: 0.8em;">${signal.rating}</span></p>
+            ${signal.tags && signal.tags.length > 0 ? 
+              `<p><strong>Tags:</strong> ${signal.tags.map(tag => 
+                `<span style="background: #e1e8ed; padding: 2px 6px; border-radius: 12px; font-size: 0.8em; margin-right: 4px;">${tag}</span>`
+              ).join('')}</p>` : ''}
+            ${signal.payload && signal.payload.notes ? 
+              `<details>
+                <summary>📋 Additional Notes</summary>
+                <p style="margin-top: 0.5rem; padding: 0.5rem; background: white; border-radius: 4px;">${signal.payload.notes}</p>
+              </details>` : ''}
+          </div>
+        `;
+      } catch (error) {
+        document.getElementById('signal-container').innerHTML = 
+          '<p style="color: #888;"><em>Signal data not yet available. Generate signals/latest.json to see broadcast information.</em></p>';
+      }
+    }
+    
+    // Load signal data when page loads
+    loadSignalData();
+  </script>
 </body>
 </html>
