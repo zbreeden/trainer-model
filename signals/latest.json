@@ -1,17 +1,17 @@
 {
-  "id": "2025-09-10T20:00:00Z-trainer-broadcast-seed",
-  "ts_utc": "2025-09-10T20:00:00Z",
-  "date": "2025-09-10",
-  "module": "The Trainer",
-  "repo": "trainer-model",
-  "title": "Master star broadcast seed initialized",
-  "summary": "Bootstrapped constellation broadcasting: schema, nightly pulse, and Signal renderer.",
-  "tags": ["broadcasting", "schema", "renderer", "pulse"],
-  "rating": "high",
+  "id": "20250923T022412Z-trainer-model-genesis",
+  "ts_utc": "2025-09-23T02:24:12Z",
+  "date": "2025-09-23",
+  "module": "Trainer Model",
+  "repo": "trainer-model", 
+  "title": "New constellation star initialized",
+  "summary": "Generated module scaffold with seedset distribution and basic broadcast structure.",
+  "tags": ["genesis", "scaffold", "module", "growth-experiment"],
+  "rating": "normal",
   "origin": {
-    "name": "The Trainer",
+    "name": "Trainer Model",
     "url": "https://zbreeden.github.io/trainer-model/",
-    "emoji": "🏋️"
+    "emoji": "🧭"
   },
   "links": {
     "readme": "https://github.com/zbreeden/trainer-model#readme",
@@ -20,7 +20,10 @@
     "runbook": "https://github.com/zbreeden/trainer-model/blob/main/RUNBOOK.md"
   },
   "payload": {
-    "notes": "This is the top-level aggregator in The Trainer. Nightly pulse pulls latest.json from each star."
+    "orbit": "growth-experiment",
+    "status": "seed", 
+    "module_key": "trainer_model",
+    "notes": "Initial scaffold created by new-module.sh script. Ready for customization and development."
   },
   "checksum": "",
   "version": "1.0.0"
