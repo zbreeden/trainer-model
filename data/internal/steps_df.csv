@@ -1,0 +1,75 @@
+step_id_name,step_id,step_status,step_last_update_date,step_is_completed
+Introduction to Excel,DC-EXCEL-1,completed,2025-10-08,True
+Data Preparation in Excel,DC-EXCEL-2,completed,2025-10-19,True
+
+Part 1: How We Got Here,LBOD-1,completed,2025-10-09,True
+Part 2: Good and Bad Data People,LBOD-2,completed,2025-10-09,True
+Part 3: Superpowers,LBOD-3,completed,2025-10-10,True
+Part 4: How We Use Data,LBOD-4,cooled,2015-10-09,False
+
+What is Data Analytics,C-AWS-1,completed,2025-10-09,True
+Why Data Analytics on the Cloud,C-AWS-2,completed,2025-09-18,True
+What Else Can I Do With Data Analytics on AWS,C-AWS-3,completed,2025-10-10,True
+
+Introduction to Data Analytics,IBM-DA-1,completed,2025-10-02,True
+Excel Basics for Data Analysis,IBM-DA-2,simmer,2025-10-10,False
+
+Getting Started,SL-CSHARP-1,completed,2025-10-11,True
+Operators & Strings,SL-CSHARP-2,completed,2025-10-20,True
+
+Getting Started with CSS,SL-CSS-1,completed,2025-10-11,True
+Styling Elements,SL-CSS-2,completed,2025-10-11,True
+
+Track 1,TAOS-1,completed,2025-10-10,True
+Track 2,TAOS-2,completed,2025-09-18,True
+Track 3,TAOS-3,sprout,2025-10-18,False
+
+Introduction: How to Lie with Statistics,TDD-1,completed,2025-10-11,False
+
+Business Analysis: Key Definitions & Strategy Analysis,C-CBAP-1,completed,2025-10-01,True
+Advanced Business Analysis: Elicitation & Analysis,C-CBAP-2,completed,2025-10-20,True
+
+Introduction to Power BI,DC-PBI-1,completed,2025-10-08,True
+Introduction to DAX in Power BI,DC-PBI-2,completed,2025-10-12,True
+Data Visualization in Power BI,DC-PBI-3,completed,2025-10-19,True
+
+Part 1 - Track 1,NS-1,completed,2025-10-05,True
+Part 1 - Track 2,NS-2,completed,2025-10-05,True
+Part 1 - Track 3,NS-3,completed,2025-10-12,True
+Part 1 - Track 4,NS-4,completed,2025-10-15,True
+Part 1 - Track 5,NS-5,completed,2025-10-19,True
+Part 1 - Track 6,NS-6,completed,2025-10-19,True
+Part 1 - Track 7,NS-7,sprout,2025-10-19,False
+
+Business Intelligence Essentials,IBM-BI-1,completed,2025-10-03,False
+Getting Started With HTML,SL-HTML-1,completed,2025-10-01,False
+Going Deeper with HTML,SL-HTML-2,completed,2025-10-15,False
+
+Getting Started with SQL,SL-SQL-1,completed,2025-10-01,True
+Going Deeper with SQL,SL-SQL-2,completed,2025-10-08,True
+Query Techniques,SL-SQL-3,completed,2025-10-17,True
+Data Analysis,SL-SQL-4,spout,2025-10-17,False
+
+Preparing Data for Analysis with Microsoft Excel,MICRO-PBI-1,completed,2025-10-15,False
+
+Introduction to Python,DC-PY-1,cooled,2025-10-01,True
+Intermediate Python,DC-PY-2,cooled,2025-10-19,False
+
+SQL for Data Science (and version control with GitHub),C-PYSQLTAB-1,cooled,2025-10-18,False
+
+Introduction to SQL,DC-SQL-1,completed,2025-10-09,True
+Intermediate SQL,DC-SQL-2,completed,2025-10-19,True
+
+Welcome to JavaScript,SL-JS-1,completed,2025-10-01,True
+Going Deeper with JavaScript,SL-JS-2,completed,2025-10-05,True
+Working with Data,SL-JS-3,completed,2025-10-19,True
+
+Opening Credits,BADH-1,completed,2025-10-19,True
+Foreword,BADH-2,completed,2025-10-19,True
+Introduction,BADH-3,completed,2025-10-19,True
+
+Getting Started with Python,SL-CODE-1,completed,2025-10-01,True
+Going Deeper with Python,SL-CODE-2,completed,2025-10-01,True
+Working with Data,SL-CODE-3,completed,2025-10-12,True
+Control Flow,SL-CODE-4,completed,2025-10-15,True
+Working with Lists,SL-CODE-5,completed,2025-10-20,True

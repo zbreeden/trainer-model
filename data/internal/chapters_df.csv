@@ -1,0 +1,208 @@
+chapter_id_name,chapter_id_code,chapter_last_update_date,chapter_is_completed
+Getting Started with Excel,DC-EXCEL-1-1,2025-10-09,True
+Managing Data and Applying Aggregate Functions,DC-EXCEL-1-2,2025-10-09,True
+Other Functions and Visualizing Data,DC-EXCEL-1-3,2025-10-09,True
+Starting Data Preparation in Excel,DC-EXCEL-2-1,2025-10-09,True
+Functions for Data Preparation,DC-EXCEL-2-2,2025-10-09,True
+Conditional Formulas,DC-EXCEL-2-3,2025-10-09,True
+Lookups and Data Transformation,DC-EXCEL-2-4,2025-10-19,True
+
+Data is Everywhere: Here is my Number,LBOD-1-1,2025-10-09,True
+Life After The Data Revolution: The Library,LBOD-1-2,2025-10-09,True
+Data Science: Data During Wartime,LBOD-1-3,2025-09-18,True
+Artificial Intelligence: A Sport For Cyborgs,LBOD-1-4,2025-09-18,True
+Data Bullies: A Story Where Bankers Are The Heroes (No Really),LBOD-2-1,2025-09-24,True
+Data People and Why I Love Them: The Day Priya Saw The Line,LBOD-2-2,2025-09-25,True
+Omniscience: Solving One Big Problem: Skate The Lake,LBOD-3-1,2025-10-10,True
+Omniscience: Solving Many Small Problems: But it is a Map!,LBOD-3-2,2025-09-22,True
+Data Directs Resources to Where They Are Needed: A True Spartan,LBOD-3-3,2025-09-22,True
+Data is Light in a Dark Room: Tiny Submarines,LBOD-3-4,2025-09-22,True
+Data Crystallizes Complex Information: The Railroad Nerd,LBOD-3-5,2025-09-23,True
+
+Welcome to Getting Started with Data Analytics on AWS,C-AWS-1-1,2025-09-23,True
+What is Data Analytics?,C-AWS-1-2,2025-09-24,True
+Most Common Data Analysis Nowadays,C-AWS-1-3,2025-09-25,True
+How is Data Analytics Present in Your Life?,C-AWS-1-4,2025-10-01,True
+Data Collection and Storage in the AWS Cloud,C-AWS-2-1,2025-10-01,True
+Popular AWS Services Used for Analytics Solutions,C-AWS-2-2,2025-10-01,True
+High-Level Content Summary: AWS Services for Data Analytics,C-AWS-2-3,2025-10-02,True
+Demo - Hello Data Analytics World,C-AWS-2-4,2025-10-10,True
+Amazon S3/AWS CloudTrail/Amazon Athena/AWS Datasets/Amazon QuickSight/Others,C-AWS-2-5,2025-09-28,True
+What Else can you do with Data Analytics?,C-AWS-3-1,2025-09-28,True
+Course Wrap-Up,C-AWS-3-2,2025-09-28,True
+Final Assessment,C-AWS-3-3,2025=09-28,True
+
+Modern Data Ecosystem and the Role of Data Analytics,IBM-DA-1-1,2025-09-29,True
+The Data Analyst Role,IBM-DA-1-2,2025-09-29,True
+Introduction to Data Analysis Using Spreadsheets,IBM-DA-2-1,2025-09-29,True
+Getting Started with Using Excel Spreadsheets,IBM-DA-2-2,2025-10-10,True
+Cleaning & Wrangling Data Using Spreadsheets,IBM-DA-2-3,2025-10-11,True
+Analyzing Data Using Spreadsheets,IBM-DA-2-4,2025-10-18,True
+
+Your first C# Program,SL-CSHARP-1-1,2025-10-13,True
+Multiple Statements,SL-CSHARP-1-2,2025-10-13,True
+Program Structure,SL-CSHARP-1-3,2025-10-13,True
+Basic Concepts,SL-CSHARP-1-4,2025-10-13,True
+Variables,SL-CSHARP-1-5,2025-10-13,True
+Data Types,SL-CSHARP-1-6,2025-10-13,True
+Doing Math,SL-CSHARP-1-7,2025-10-13,True
+Module 1 Quiz,SL-CSHARP-1-8,2025-10-13,True
+Arithmetic Operators,SL-CSHARP-2-1,2025-09-18,True
+Assignment Operators,SL-CSHARP-2-2,2025-09-18,True
+User Input,SL-CSHARP-2-3,2025-09-18,True
+More on Strings,SL-CSHARP-2-4,2025-10-11,True
+Concatenation & Interpolation,SL-CSHARP-2-5,2025-09-21,True
+Module 2 Quiz,SL-CSHARP-2-6,2025-10-20,True
+
+Welcome to CSS,SL-CSS-1-1,2025-09-21,True
+Styling Techniques,SL-CSS-1-2,2025-09-21,True
+The Anatomy of CSS,SL-CSS-1-3,2025-09-21,True
+Style Inheritance,SL-CSS-1-4,2025-10-01,True
+ID and Class Selectors,SL-CSS-1-5,2025-10-01,True
+Standards and Best Practices,SL-CSS-1-6,2025-10-01,True
+Profile Page Project Step 1,SL-CSS-1-7,2025-10-04,True
+Introduction to Color,SL-CSS-2-1,2025-10-11,True
+Dimensions,SL-CSS-2-2,2025-10-05,True
+Styling Text,SL-CSS-2-3,2025-10-05,True
+Font Styles,SL-CSS-2-4,2025-10-05,True
+Profile Page Project Step 2,SL-CSS-2-5,2025-10-05,True
+Styling Links,SL-CSS-2-6,2025-10-05,True
+Styling Tables,SL-CSS-2-7,2025-10-05,True
+Styling Lists,SL-CSS-2-8,2025-10-05,True
+Profile Page Project Step 3,SL-CSS-2-9,2025-10-05,True
+Styling Forms,SL-CSS-2-10,2025-10-05,True
+
+Introduction,C-CBAP-1-1,2025-10-05,True
+Key Definitions,C-CBAP-1-2,2025-10-05,True
+Strategy Analysis,C-CBAP-1-3,2025-10-12,True
+Final Assessment,C-CBAP-1-4,2025-10-12,True
+Elicitation & Collaboration,C-CBAP-2-1,2025-10-12,True
+Requirements Analysis & Design Definition,C-CBAP-2-2,2025-10-20,True
+Final Assessment,C-CBAP-3-1,2025-10-20,True
+
+Getting Started with Power BI,DC-PBI-1-1,2025-10-08,True
+Transforming Data,DC-PBI-1-2,2025-10-08,True
+Visualizing Data,DC-PBI-1-3,2025-10-08,True
+Filtering,DC-PBI-1-4,2025-10-08,True
+Getting Started With DAX,DC-PBI-2-1,2025-10-12,True
+Context in DAX Formulas,DC-PBI-2-2,2025-10-12,True
+Working with Dates,DC-PBI-2-3,2025-10-12,True
+The Audience is King,DC-PBI-3-1,2025-10-15,True
+Getting an Emotional Response,DC-PBI-3-2,2025-10-15,True
+Reducing Cognitive Load,DC-PBI-3-3,2025-10-19,True
+Less is More,DC-PBI-3-4,2025-10-19,True
+
+Introduction to Business Intelligence,IBM-BI-1-1,2025-10-03,True
+The Data Ecosystem,IBM-BI-1-2,2025-10-03,True
+BI Analytics Landscape,IBM-BI-1-3,2025-10-13,True
+Gathering and Wrangling Data,IBM-BI-1-4,2025-10-13,True
+
+The Core Web Technology,SL-HTML-1-1,2025-10-01,True
+HTML Code,SL-HTML-1-2,2025-10-01,True
+Headings,SL-HTML-1-3,2025-10-01,True
+Images,SL-HTML-1-4,2025-10-01,True
+Landing Page Project,SL-HTML-1-5,2025-10-01,True
+Comments,SL-HTML-2-1,2025-10-14,True
+Standards & Best Practices,SL-HTML-2-2,2025-10-14,True
+Text Formatting,SL-HTML-2-3,2025-10-15,True
+Links,SL-HTML-2-4,2025-10-15,True
+Lists,SL-HTML-2-5,2025-10-15,True
+Landing Page Project,SL-HTML-2-6,2025-10-15,True
+
+Working with Data,SL-SQL-1-1,2025-10-01,True
+Running SQL Queries,SL-SQL-1-2,2025-10-01,True
+Relational Databases,SL-SQL-1-3,2025-10-01,True
+Debugging,SL-SQL-1-4,2025-10-01,True
+Module 1 Quiz,SL-SQL-1-5,2025-10-01,True
+Standards & Best Practices,SL-SQL-2-1,2025-10-05,True
+Sorting Data,SL-SQL-2-2,2025-10-05,True
+Limiting Data Types,SL-SQL-2-3,2025-10-05,True
+Data Types,SL-SQL-2-4,2025-10-05,True
+Filtering Data,SL-SQL-2-5,2025-10-05,True
+Module 2 Quiz,SL-SQL-2-7,2025-10-05,True
+Pattern Matching,SL-SQL-3-1,2025-10-15,True
+Advanced Pattern Matching,SL-SQL-3-2,2025-10-17,True
+SQL Conditions,SL-SQL-3-3,2025-10-17,True
+Data Aggregation,SL-SQL-3-4,2025-10-17,True
+Mixing Things Up,SL-SQL-3-5,2025-10-17,True
+Module 3 Quiz,SL-SQL-3-6,2025-10-17,True
+
+
+Excel Fundamentals,MICRO-PBI-1-1,2025-10-05,True
+Formulas & Functions,MICRO-PBI-1-2,2025-10-02,True
+Preparing data for analysis using functions,MICRO-PBI-1-3,2025-10-02,True
+
+
+Python Basics,DC-PY-1-1,2025-10-01,True
+Python Lists,DC-PY-1-2,2025-10-01,True
+Functions & Packages,DC-PY-1-3,2025-10-01,True
+Numpy,DC-PY-1-4,2025-10-01,True
+Matplotlib,DC-PY-2-1,2025-10-01,True
+Dictionaries & Pandas,DC-PY-2-2,2025-10-08,True
+Logic/Control Flow/Filtering,DC-PY-2-3,2025-10-19,True
+
+Introduction to SQL and Environment Setups,C-PYSQLTAB-1-1,2025-10-08,True
+Data Querying/Aggregation/Joins,C-PYSQLTAB-1-2,2025-10-18,True
+Advanced Query Techniques,C-PYSQLTAB-1-3,2025-10-18,False
+
+Relational Databases,DC-SQL-1-1,2025-10-09,True
+Querying,DC-SQL-1-2,2025-10-09,True
+Selecting Data,DC-SQL-2-1,2025-10-12,True
+Filtering Records,DC-SQL-2-2,2025-10-12,True
+Aggregate Functions,DC-SQL-2-3,2025-10-18,True
+Sorting and Grouping Data,DC-SQL-2-4,2025-10-19,True
+
+Welcome to JavaScript,SL-JS-1-1,2025-10-01,True
+JavaScript Code,SL-JS-1-2,2025-10-01,True
+Datas and Variables,SL-JS-1-3,2025-10-01,True
+Working with Variables,SL-JS-1-4,2025-10-01,True
+The Document Object Model,SL-JS-1-5,2025-10-01,True
+Module 1 Quiz,SL-JS-1-6,2025-10-01,True
+JavaScript Functions,SL-JS-2-1,2025-10-05,True
+Standards and Best Practices,SL-JS-2-2,2025-10-05,True
+Writing JS Code,SL-JS-2-3,2025-10-05,True
+User Input,SL-JS-2-4,2025-10-05,True
+Number and String Operations,SL-JS-2-5,2025-10-05,True
+Module 2 Quiz,SL-JS-2-6,2025-10-05,True
+Comparison Operations,SL-JS-3-1,2025-10-18,True
+Advanced User Input,SL-JS-3-2,2025-10-18,True
+Objects and Dot Notation,SL-JS-3-3,2025-10-18,True
+Logical Operations,SL-JS-3-4,2025-10-19,True
+Data Types,SL-JS-3-5,2025-10-19,True
+Module 3 Quiz,SL-JS-3-6,2025-10-19,True
+
+Writing Code,SL-CODE-1-1,2025-10-01,True
+Memory and Variables,SL-CODE-1-2,2025-10-01,True
+Text Data,SL-CODE-1-3,2025-10-01,True
+Numerical Data,SL-CODE-1-4,2025-10-01,True
+Working with Variables,SL-CODE-1-5,2025-10-01,True
+Module 1 Quiz,SL-CODE-1-6,2025-10-01,True
+Debugging,SL-CODE-2-1,2025-10-01,True
+Standards and Best Practices,SL-CODE-2-2,2025-10-01,True
+Applying Best Practices,SL-CODE-2-3,2025-10-01,True
+Inputs and Outputs,SL-CODE-2-4,2025-10-01,True
+Data Types,SL-CODE-2-5,2025-10-01,True
+Module 2 Quiz,SL-CODE-2-6,2025-10-01,True
+Data Type Checking,SL-CODE-3-1,2025-10-12,True
+Data Conversion,SL-CODE-3-2,2025-10-12,True
+Fixing Data Types,SL-CODE-3-3,2025-10-12,True
+Comparison Operations,SL-CODE-3-4,2025-10-12,True
+Logical Operations,SL-CODE-3-5,2025-10-12,True
+Combining Comparison and Logical Operations,SL-CODE-3-6,2025-10-12,True
+Module 3 Quiz,SL-CODE-3-7,2025-10-12,True
+Control Flow,SL-CODE-4-1,2025-10-15,True
+For Loops,SL-CODE-4-2,2025-10-15,True
+While Loops,SL-CODE-4-3,2025-10-15,True
+More on Iteration,SL-CODE-4-4,2025-10-15,True
+Conditional Statements,SL-CODE-4-5,2025-10-15,True
+More on Conditional Statements,SL-CODE-4-6,2025-10-15,True
+Module 4 Quiz,SL-CODE-4-7,2025-10-15,True
+Lists,SL-CODE-5-1,2025-10-20,True
+Indexing,SL-CODE-5-2,2025-10-20,True
+Using Indexing,SL-CODE-5-3,2025-10-20,True
+Slicing,SL-CODE-5-4,2025-10-20,True
+Using Slicing,SL-CODE-5-5,2025-10-20,True
+Advanced Slicing and Indexing,SL-CODE-5-6,2025-10-20,True
+Module 5 Quiz,SL-CODE-5-7,2025-10-20,True
+
+

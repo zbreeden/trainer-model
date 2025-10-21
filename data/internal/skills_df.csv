@@ -1,0 +1,14 @@
+skill_track_name,skill_track_code,skill_is_completed,skill_status,skill_track_last_update_date
+Excel,SK-EXCEL,False,cooled,2025-10-19
+Python,SK-PYTHON,False,cooled,2025-10-20
+SQL,SK-SQL,False,cooled,2025-10-19
+Power BI,SK-POWERBI,False,cooled,2025-10-19
+Tableau,SK-TABLEAU,False,cooled,2025-10-11
+CSharp,SK-CSHARP,False,cooled,2025-10-20
+Websites,SK-WEBSITES,False,cooled,2025-10-19
+Data Analysis,SK-DA,False,cooled,2025-10-19
+AWS,SK-AWS,False,cooled,2025-10-09
+Snowflake,SK-SNOWFLAKE,False,cooled,2025-10-09
+R,SK-R,False,cooled,2025-10-15
+Business Analysis,SK-BA,False,cooled,2025-10-20
+Business Intelligence,SK-BI,False,cooled,2025-10-13

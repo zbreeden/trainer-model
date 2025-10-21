@@ -1,0 +1,24 @@
+training_id_name,training_id,training_status,last_update_date,training_is_completed
+Excel Fundamentals,datacamp_excel,cooled,2025-10-19,False
+Python Data Fundamentals,datacamp_python,cooled,2025-10-19,False
+SQL Fundamentals,datacamp_sql,cooled,2025-10-19,False
+Power BI Fundamentals,datacamp_powerbi,cooled,2025-10-19,False
+Python/SQL/Tableau for Data Science,coursera_pysqltab,cooled,2025-10-18,False
+Microsoft Power BI Data Analyst,microsoft_powerbi,cooled,2025-10-15,False
+IBM Business Intelligence (BI) Analyst,ibm_bi,cooled,2025-10-15,False
+Certified Business Analysis Professional,coursera_cbap,cooled,2025-10-20,False
+IBM Data Analyst,ibm_da,cooled,2025-10-15,False
+Coding for Data,sololearn_coding,cooled,2025-10-20,False
+Introduction to C#,sololearn_csharp,cooled,2025-10-20,False
+Introduction to JavaScript,sololearn_js,cooled,2025-10-19,False
+Introduction to SQL,sololearn_sql,cooled,2025-10-17,False
+Introduction to HTML,sololearn_html,cooled,2025-10-15,False
+Introduction to CSS,sololearn_css,cooled,2025-10-15,False
+The Little Book of Data by Justin Evans,the_little_book_of_data,cooled,2025-10-15,False
+Getting Started with Data Analytics on AWS,coursera_aws,cooled,2025-10-15,True
+Snowflake Onboarding,snowflake,cooled,2025-10-15,False
+R Programming Fundamentals,datacamp_r,cooled,2025-10-15,False
+The Art of Statistics by David Spiegelhalter,the_art_of_statistics,cooled,2025-10-18,False
+The Data Detective by Tim Harford,the_data_detective,cooled,2025-10-15,False
+Naked Statistics by Charles Wheelen,naked_statistics,cooled,2025-10-19,False
+Becoming a Data Head by Alex Gutman and Jordan Goldmeier,becoming_a_data_head,cooled,2025-10-19,False
