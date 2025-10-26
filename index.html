@@ -139,7 +139,7 @@
       readmeToggle.textContent = 'Hide README';
       readmeToggle.setAttribute('aria-expanded', 'true');
       if (!readmeContainer.dataset.loaded) {
-        await loadCoachReadme();
+        await loadTrainerReadme();
         readmeContainer.dataset.loaded = '1';
       }
     });
