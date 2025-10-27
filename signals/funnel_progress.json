@@ -1,0 +1,1339 @@
+{
+  "generated_at": "2025-10-27T22:22:25Z",
+  "trainings": {
+    "datacamp_excel": {
+      "id": "datacamp_excel",
+      "title": "Excel Fundamentals",
+      "steps_total": 5,
+      "steps_completed": [
+        "DC-EXCEL-1",
+        "DC-EXCEL-2"
+      ],
+      "percent_complete": 40.0,
+      "last_activity": "2025-10-19",
+      "notes": "A comprehensive course on Excel basics and essential functions.",
+      "steps": [
+        {
+          "id": "DC-EXCEL-1",
+          "title": "Introduction to Excel",
+          "completed": true,
+          "last_activity": "2025-10-09"
+        },
+        {
+          "id": "DC-EXCEL-2",
+          "title": "Data Preparation in Excel",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "DC-EXCEL-3",
+          "title": "Data Visualization in Excel",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-EXCEL-4",
+          "title": "Data Analysis in Excel",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-EXCEL-5",
+          "title": "Case Study: Analyzing Customer Churn in Excel",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "datacamp_python": {
+      "id": "datacamp_python",
+      "title": "Python Data Fundamentals",
+      "steps_total": 9,
+      "steps_completed": [
+        "DC-PY-1"
+      ],
+      "percent_complete": 11.1111,
+      "last_activity": "2025-10-23",
+      "notes": "A comprehensive course on Python programming for data analysis.",
+      "steps": [
+        {
+          "id": "DC-PY-1",
+          "title": "Introduction to Python",
+          "completed": true,
+          "last_activity": "2025-10-01"
+        },
+        {
+          "id": "DC-PY-2",
+          "title": "Intermediate Python",
+          "completed": false,
+          "last_activity": "2025-10-23"
+        },
+        {
+          "id": "DC-PY-3",
+          "title": "Project: Investigating Netflix Movies",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-PY-4",
+          "title": "Data Manipulation with Pandas",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-PY-5",
+          "title": "Joining Data with Pandas",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-PY-6",
+          "title": "Introduction to Data Visualization with Seaborn",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-PY-7",
+          "title": "Introduction to Statistics in Python",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-PY-8",
+          "title": "Exploratory Data Analysis in Python",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-PY-9",
+          "title": "Project: Analyzing Crime in Los Angeles",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "coursera_pysqltab": {
+      "id": "coursera_pysqltab",
+      "title": "Python/SQL/Tableau for Data Science",
+      "steps_total": 5,
+      "steps_completed": [],
+      "percent_complete": 0.0,
+      "last_activity": "2025-10-24",
+      "notes": "A comprehensive course on Python, SQL, and Tableau for data science.",
+      "steps": [
+        {
+          "id": "C-PYSQLTAB-1",
+          "title": "SQL for Data Science (and version control with GitHub)",
+          "completed": false,
+          "last_activity": "2025-10-24"
+        },
+        {
+          "id": "C-PYSQLTAB-2",
+          "title": "Python for Data Science (and Version Control with GitHub)",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "C-PYSQLTAB-3",
+          "title": "Data Visualization with Tableau and Microsoft Excel",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "C-PYSQLTAB-4",
+          "title": "Advanced Data Science Techniques (with AWS integration)",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "C-PYSQLTAB-5",
+          "title": "Building a Real-World Science Solution",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "datacamp_sql": {
+      "id": "datacamp_sql",
+      "title": "SQL Fundamentals",
+      "steps_total": 10,
+      "steps_completed": [
+        "DC-SQL-1",
+        "DC-SQL-2"
+      ],
+      "percent_complete": 20.0,
+      "last_activity": "2025-10-19",
+      "notes": "A comprehensive course on SQL basics and essential queries.",
+      "steps": [
+        {
+          "id": "DC-SQL-1",
+          "title": "Introduction to SQL",
+          "completed": true,
+          "last_activity": "2025-10-09"
+        },
+        {
+          "id": "DC-SQL-2",
+          "title": "Intermediate SQL",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "DC-SQL-3",
+          "title": "Project: Analyzing Students' Mental Health",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-SQL-4",
+          "title": "Joining Data in SQL",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-SQL-5",
+          "title": "Data Manipulation in SQL",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-SQL-6",
+          "title": "PostgreSQL Summary Stats and Window Functions",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-SQL-7",
+          "title": "Functions for Manipulating Data in PostgreSQL",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-SQL-8",
+          "title": "Database Design",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-SQL-9",
+          "title": "Project: Analysis of GoodThought NGO Initiatives",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-SQL-10",
+          "title": "Skill Assessment: Data Analysis in SQL (PostgreSQL)",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "sololearn_sql": {
+      "id": "sololearn_sql",
+      "title": "Introduction to SQL",
+      "steps_total": 4,
+      "steps_completed": [
+        "SL-SQL-1",
+        "SL-SQL-2",
+        "SL-SQL-3"
+      ],
+      "percent_complete": 75.0,
+      "last_activity": "2025-10-27",
+      "notes": "A comprehensive course on SQL fundamentals.",
+      "steps": [
+        {
+          "id": "SL-SQL-1",
+          "title": "Getting Started with SQL",
+          "completed": true,
+          "last_activity": "2025-10-01"
+        },
+        {
+          "id": "SL-SQL-2",
+          "title": "Going Deeper with SQL",
+          "completed": true,
+          "last_activity": "2025-10-08"
+        },
+        {
+          "id": "SL-SQL-3",
+          "title": "Query Techniques",
+          "completed": true,
+          "last_activity": "2025-10-17"
+        },
+        {
+          "id": "SL-SQL-4",
+          "title": "Data Analysis",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "datacamp_powerbi": {
+      "id": "datacamp_powerbi",
+      "title": "Power BI Fundamentals",
+      "steps_total": 6,
+      "steps_completed": [
+        "DC-PBI-1",
+        "DC-PBI-2",
+        "DC-PBI-3"
+      ],
+      "percent_complete": 50.0,
+      "last_activity": "2025-10-19",
+      "notes": "A comprehensive course on Power BI basics and essential features.",
+      "steps": [
+        {
+          "id": "DC-PBI-1",
+          "title": "Introduction to Power BI",
+          "completed": true,
+          "last_activity": "2025-10-08"
+        },
+        {
+          "id": "DC-PBI-2",
+          "title": "Introduction to DAX in Power BI",
+          "completed": true,
+          "last_activity": "2025-10-12"
+        },
+        {
+          "id": "DC-PBI-3",
+          "title": "Data Visualization in Power BI",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "DC-PBI-4",
+          "title": "Case Study: Analyzing Customer Churn in Power BI",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-PBI-5",
+          "title": "Data Preparation in Power BI",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "DC-PBI-6",
+          "title": "Data Modeling in Power BI",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "microsoft_powerbi": {
+      "id": "microsoft_powerbi",
+      "title": "Microsoft Power BI Data Analyst",
+      "steps_total": 8,
+      "steps_completed": [
+        "MICRO-PBI-1"
+      ],
+      "percent_complete": 12.5,
+      "last_activity": "2025-10-25",
+      "notes": "A comprehensive course on Power BI basics and essential features.",
+      "steps": [
+        {
+          "id": "MICRO-PBI-1",
+          "title": "Preparing Data for Analysis with Microsoft Excel",
+          "completed": true,
+          "last_activity": "2025-10-23"
+        },
+        {
+          "id": "MICRO-PBI-2",
+          "title": "Harnessing the Power of Data with Power BI",
+          "completed": false,
+          "last_activity": "2025-10-25"
+        },
+        {
+          "id": "MICRO-PBI-3",
+          "title": "Extract, Transform, and Load Data in Power BI",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "MICRO-PBI-4",
+          "title": "Data Modeling in Power BI",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "MICRO-PBI-5",
+          "title": "Data Analysis and Visualization in Power BI",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "MICRO-PBI-6",
+          "title": "Creative Designing in Power BI",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "MICRO-PBI-7",
+          "title": "Deploying and Maintain Power BI Assets and Capstone Project",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "MICRO-PBI-8",
+          "title": "Microsoft PL-300 Exam Preparation and Practice",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "sololearn_csharp": {
+      "id": "sololearn_csharp",
+      "title": "Introduction to C#",
+      "steps_total": 5,
+      "steps_completed": [
+        "SL-CSHARP-1",
+        "SL-CSHARP-2"
+      ],
+      "percent_complete": 40.0,
+      "last_activity": "2025-10-26",
+      "notes": "A comprehensive course on C# fundamentals.",
+      "steps": [
+        {
+          "id": "SL-CSHARP-1",
+          "title": "Getting Started",
+          "completed": true,
+          "last_activity": "2025-10-13"
+        },
+        {
+          "id": "SL-CSHARP-2",
+          "title": "Operators & Strings",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "SL-CSHARP-3",
+          "title": "Decision Making",
+          "completed": false,
+          "last_activity": "2025-10-26"
+        },
+        {
+          "id": "SL-CSHARP-4",
+          "title": "Loops",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "SL-CSHARP-5",
+          "title": "Methods",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "sololearn_js": {
+      "id": "sololearn_js",
+      "title": "Introduction to JavaScript",
+      "steps_total": 4,
+      "steps_completed": [
+        "SL-JS-1",
+        "SL-JS-2",
+        "SL-JS-3"
+      ],
+      "percent_complete": 75.0,
+      "last_activity": "2025-10-19",
+      "notes": "A comprehensive course on JavaScript fundamentals.",
+      "steps": [
+        {
+          "id": "SL-JS-1",
+          "title": "Welcome to JavaScript",
+          "completed": true,
+          "last_activity": "2025-10-01"
+        },
+        {
+          "id": "SL-JS-2",
+          "title": "Going Deeper with JavaScript",
+          "completed": true,
+          "last_activity": "2025-10-05"
+        },
+        {
+          "id": "SL-JS-3",
+          "title": "Working with Data",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "SL-JS-4",
+          "title": "Control Flow",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "sololearn_html": {
+      "id": "sololearn_html",
+      "title": "Introduction to HTML",
+      "steps_total": 4,
+      "steps_completed": [
+        "SL-HTML-1",
+        "SL-HTML-2"
+      ],
+      "percent_complete": 50.0,
+      "last_activity": "2025-10-15",
+      "notes": "A comprehensive course on HTML fundamentals.",
+      "steps": [
+        {
+          "id": "SL-HTML-1",
+          "title": "Getting Started with HTML",
+          "completed": true,
+          "last_activity": "2025-10-01"
+        },
+        {
+          "id": "SL-HTML-2",
+          "title": "Going Deeper with HTML",
+          "completed": true,
+          "last_activity": "2025-10-15"
+        },
+        {
+          "id": "SL-HTML-3",
+          "title": "Using Attributes",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "SL-HTML-4",
+          "title": "Mastering HTML",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "sololearn_css": {
+      "id": "sololearn_css",
+      "title": "Introduction to CSS",
+      "steps_total": 4,
+      "steps_completed": [
+        "SL-CSS-1",
+        "SL-CSS-2"
+      ],
+      "percent_complete": 50.0,
+      "last_activity": "2025-10-11",
+      "notes": "A comprehensive course on CSS fundamentals.",
+      "steps": [
+        {
+          "id": "SL-CSS-1",
+          "title": "Getting Started with CSS",
+          "completed": true,
+          "last_activity": "2025-10-04"
+        },
+        {
+          "id": "SL-CSS-2",
+          "title": "Styling Elements",
+          "completed": true,
+          "last_activity": "2025-10-11"
+        },
+        {
+          "id": "SL-CSS-3",
+          "title": "Page Design and Layout",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "SL-CSS-4",
+          "title": "Transitions and Transforms",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "ibm_da": {
+      "id": "ibm_da",
+      "title": "IBM Data Analyst",
+      "steps_total": 11,
+      "steps_completed": [
+        "IBM-DA-1",
+        "IBM-DA-2"
+      ],
+      "percent_complete": 18.1818,
+      "last_activity": "2025-10-25",
+      "notes": "A comprehensive course on data analysis techniques and tools.",
+      "steps": [
+        {
+          "id": "IBM-DA-1",
+          "title": "Introduction to Data Analytics",
+          "completed": true,
+          "last_activity": "2025-10-01"
+        },
+        {
+          "id": "IBM-DA-2",
+          "title": "Excel Basics for Data Analysis",
+          "completed": true,
+          "last_activity": "2025-10-25"
+        },
+        {
+          "id": "IBM-DA-3",
+          "title": "Data Visualization and Dashboards with Excel and Cognos",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-DA-4",
+          "title": "Python for Data Science, AI, and Development",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-DA-5",
+          "title": "Python Project for Data Science",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-DA-6",
+          "title": "Databases and SQL for Data Science with Python",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-DA-7",
+          "title": "Data Analysis with Python",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-DA-8",
+          "title": "Data Visualization with Python",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-DA-9",
+          "title": "IBM Data Analyst Capstone Project",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-DA-10",
+          "title": "Generative AI: Enhance your Data Analytics Career",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-DA-11",
+          "title": "Data Analyst Career Guide and Interview Preparation",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "sololearn_coding": {
+      "id": "sololearn_coding",
+      "title": "Coding for Data Analysts",
+      "steps_total": 10,
+      "steps_completed": [
+        "SL-CODE-1",
+        "SL-CODE-2",
+        "SL-CODE-3",
+        "SL-CODE-4",
+        "SL-CODE-5"
+      ],
+      "percent_complete": 50.0,
+      "last_activity": "2025-10-20",
+      "notes": "A comprehensive course on data analysis techniques and tools.",
+      "steps": [
+        {
+          "id": "SL-CODE-1",
+          "title": "Getting Started with Python",
+          "completed": true,
+          "last_activity": "2025-10-01"
+        },
+        {
+          "id": "SL-CODE-2",
+          "title": "Going Deeper with Python",
+          "completed": true,
+          "last_activity": "2025-10-01"
+        },
+        {
+          "id": "SL-CODE-3",
+          "title": "Working with Data",
+          "completed": true,
+          "last_activity": "2025-10-12"
+        },
+        {
+          "id": "SL-CODE-4",
+          "title": "Control Flow",
+          "completed": true,
+          "last_activity": "2025-10-15"
+        },
+        {
+          "id": "SL-CODE-5",
+          "title": "Working with Lists",
+          "completed": true,
+          "last_activity": "2025-10-20"
+        },
+        {
+          "id": "SL-CODE-6",
+          "title": "Functions",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "SL-CODE-7",
+          "title": "Getting Started with SQL",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "SL-CODE-8",
+          "title": "Going Deeper with SQL",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "SL-CODE-9",
+          "title": "Query Techniques",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "SL-CODE-10",
+          "title": "Data Analysis",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "the_little_book_of_data": {
+      "id": "the_little_book_of_data",
+      "title": "The Little Book of Data by Justin Evans",
+      "steps_total": 5,
+      "steps_completed": [
+        "LBOD-1",
+        "LBOD-2",
+        "LBOD-3"
+      ],
+      "percent_complete": 60.0,
+      "last_activity": "2025-10-15",
+      "notes": "An introductory book on data science concepts and techniques.",
+      "steps": [
+        {
+          "id": "LBOD-1",
+          "title": "Part 1: How We Got Here",
+          "completed": true,
+          "last_activity": "2025-10-09"
+        },
+        {
+          "id": "LBOD-2",
+          "title": "Part 2: Good and Bad Data People",
+          "completed": true,
+          "last_activity": "2025-10-09"
+        },
+        {
+          "id": "LBOD-3",
+          "title": "Part 3: Superpowers",
+          "completed": true,
+          "last_activity": "2025-10-09"
+        },
+        {
+          "id": "LBOD-4",
+          "title": "Part 4: How We Use Data",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "LBOD-5",
+          "title": "Part 5: Conclusion",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "the_art_of_statistics": {
+      "id": "the_art_of_statistics",
+      "title": "The Art of Statistics by David Spiegelhalter",
+      "steps_total": 15,
+      "steps_completed": [
+        "TAOS-1",
+        "TAOS-2"
+      ],
+      "percent_complete": 13.3333,
+      "last_activity": "2025-10-18",
+      "notes": "A comprehensive book on statistical concepts and their applications.",
+      "steps": [
+        {
+          "id": "TAOS-1",
+          "title": "Introduction",
+          "completed": true,
+          "last_activity": "2025-10-10"
+        },
+        {
+          "id": "TAOS-2",
+          "title": "Getting Things in Proportion: categorical data and percentages",
+          "completed": true,
+          "last_activity": "2025-10-10"
+        },
+        {
+          "id": "TAOS-3",
+          "title": "Summarizing and Communicating Numbers: Lots of Numbers",
+          "completed": false,
+          "last_activity": "2025-10-18"
+        },
+        {
+          "id": "TAOS-4",
+          "title": "Why are we Looking at the Data Anyway: Populations and Measurements",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-5",
+          "title": "What causes what?",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-6",
+          "title": "Modeling Relationships Using Regression",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-7",
+          "title": "Algorithms, analytics and prediction",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-8",
+          "title": "How sure can we be about what is going on: Estimates and Intervals",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-9",
+          "title": "Probability: The Language of Uncertainty and Variability",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-10",
+          "title": "Putting probability and statistics together",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-11",
+          "title": "Answering Questions and Claiming Discoveries",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-12",
+          "title": "Learning from Experience: The Bayesian Way",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-13",
+          "title": "How things go wrong",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-14",
+          "title": "How we can do Statistics Better",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TAOS-15",
+          "title": "In Conclusion",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "naked_statistics": {
+      "id": "naked_statistics",
+      "title": "Naked Statistics by Charles Wheelan",
+      "steps_total": 16,
+      "steps_completed": [
+        "NS-1",
+        "NS-2",
+        "NS-3",
+        "NS-4",
+        "NS-5",
+        "NS-6"
+      ],
+      "percent_complete": 37.5,
+      "last_activity": "2025-10-21",
+      "notes": "An engaging book on statistical concepts and their real-world applications.",
+      "steps": [
+        {
+          "id": "NS-1",
+          "title": "Introduction: Why I hated calculus but loved statistics",
+          "completed": true,
+          "last_activity": "2025-10-05"
+        },
+        {
+          "id": "NS-2",
+          "title": "Chapter 1: What's the point",
+          "completed": true,
+          "last_activity": "2025-10-12"
+        },
+        {
+          "id": "NS-3",
+          "title": "Chapter 2: Descriptive Statistics",
+          "completed": true,
+          "last_activity": "2025-10-15"
+        },
+        {
+          "id": "NS-4",
+          "title": "Chapter 3: Deceptive Description",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "NS-5",
+          "title": "Chapter 4: Correlation",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "NS-6",
+          "title": "Chapter 5: Basic Probability",
+          "completed": true,
+          "last_activity": "2025-10-21"
+        },
+        {
+          "id": "NS-7",
+          "title": "Chapter 5.5: The Monty Hall Problem",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "NS-8",
+          "title": "Chapter 6: Problems with Probability",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "NS-9",
+          "title": "Chapter 7: The Importance of Data",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "NS-10",
+          "title": "Chapter 8: The Central Limit Theorem",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "NS-11",
+          "title": "Chapter 9: Inference",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "NS-12",
+          "title": "Chapter 10: Polling",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "NS-13",
+          "title": "Chapter 11: Regression Analysis",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "NS-14",
+          "title": "Chapter 12: Common Regression Mistakes",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "NS-15",
+          "title": "Chapter 13: Program Evaluation",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "NS-16",
+          "title": "Conclusion: Five Questions Statistics Can Help Answer",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "becoming_a_data_head": {
+      "id": "becoming_a_data_head",
+      "title": "Becoming a Data Head by Alex J. Gutman and Jordan Goldmeier",
+      "steps_total": 18,
+      "steps_completed": [
+        "BADH-1",
+        "BADH-2",
+        "BADH-3",
+        "BADH-4",
+        "BADH-5",
+        "BADH-6"
+      ],
+      "percent_complete": 33.3333,
+      "last_activity": "2025-10-25",
+      "notes": "A practical guide to data analysis and visualization.",
+      "steps": [
+        {
+          "id": "BADH-1",
+          "title": "Opening Credits",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "BADH-2",
+          "title": "Foreword",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "BADH-3",
+          "title": "Introduction",
+          "completed": true,
+          "last_activity": "2025-10-19"
+        },
+        {
+          "id": "BADH-4",
+          "title": "Chapter 1: What is the Problem?",
+          "completed": true,
+          "last_activity": "2025-10-25"
+        },
+        {
+          "id": "BADH-5",
+          "title": "Chapter 2: What is Data?",
+          "completed": true,
+          "last_activity": "2025-10-25"
+        },
+        {
+          "id": "BADH-6",
+          "title": "Chapter 3: Prepare to Think Statistically",
+          "completed": true,
+          "last_activity": "2025-10-25"
+        },
+        {
+          "id": "BADH-7",
+          "title": "Chapter 4: Argue with the Data",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-8",
+          "title": "Chapter 5: Explore the Data",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-9",
+          "title": "Chapter 6: Examine the Probabilities",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-10",
+          "title": "Chapter 7: Challenge the Statistics",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-11",
+          "title": "Chapter 8: Search for Hidden Groups",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-12",
+          "title": "Chapter 9: Understand the Regression Model",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-13",
+          "title": "Chapter 10: Understand the Classification",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-14",
+          "title": "Chapter 11: Understand the Text Analytics",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-15",
+          "title": "Chapter 12: Conceptualize Deep Learning",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-16",
+          "title": "Chapter 13: Watch out for Pitfalls",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-17",
+          "title": "Chapter 14: Know the People and Personalities",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "BADH-18",
+          "title": "Chapter 15: What's Next?",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "the_data_detective": {
+      "id": "the_data_detective",
+      "title": "The Data Detective by David Spiegelhalter",
+      "steps_total": 12,
+      "steps_completed": [
+        "TDD-1",
+        "TDD-2"
+      ],
+      "percent_complete": 16.6667,
+      "last_activity": "2025-10-25",
+      "notes": "A comprehensive book on statistical concepts and their applications.",
+      "steps": [
+        {
+          "id": "TDD-1",
+          "title": "Introduction: How to Lie with Statistics",
+          "completed": true,
+          "last_activity": "2025-10-15"
+        },
+        {
+          "id": "TDD-2",
+          "title": "Rule One: Search your Feelings",
+          "completed": true,
+          "last_activity": "2025-10-25"
+        },
+        {
+          "id": "TDD-3",
+          "title": "Rule Two: Ponder your Personal Experience",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TDD-4",
+          "title": "Rule Three: Avoid Premature Enumeration",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TDD-5",
+          "title": "Rule Four: Step Back and Enjoy the View",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TDD-6",
+          "title": "Rule Five: Get the Backstory",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TDD-7",
+          "title": "Rule Six: Ask Who is Missing",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TDD-8",
+          "title": "Rule Seven: Demand Transparency When the Computer Says No",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TDD-9",
+          "title": "Rule Eight: Don't Take Statistical Bedrock for Granted",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TDD-10",
+          "title": "Rule Nine: Remember That Misinformation Can Be Beautiful, Too",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TDD-11",
+          "title": "Rule Ten: Keep an Open Mind",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "TDD-12",
+          "title": "The Golden Rule: Be Curious",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "coursera_aws": {
+      "id": "coursera_aws",
+      "title": "Getting Started with Data Analytics on AWS",
+      "steps_total": 3,
+      "steps_completed": [
+        "C-AWS-1",
+        "C-AWS-2",
+        "C-AWS-3"
+      ],
+      "percent_complete": 100.0,
+      "last_activity": "2025-10-15",
+      "notes": "A comprehensive course on AWS data analytics services and tools.",
+      "steps": [
+        {
+          "id": "C-AWS-1",
+          "title": "What is Data Analytics",
+          "completed": true,
+          "last_activity": "2025-10-09"
+        },
+        {
+          "id": "C-AWS-2",
+          "title": "Why Data Analytics on the Cloud",
+          "completed": true,
+          "last_activity": "2025-10-09"
+        },
+        {
+          "id": "C-AWS-3",
+          "title": "What Else Can I Do With Data Analytics on AWS",
+          "completed": true,
+          "last_activity": "2025-10-09"
+        }
+      ]
+    },
+    "snowflake": {
+      "id": "snowflake",
+      "title": "Snowflake Onboarding",
+      "steps_total": 0,
+      "steps_completed": [],
+      "percent_complete": 0.0,
+      "last_activity": "2025-10-15",
+      "notes": "A comprehensive course on Snowflake fundamentals and best practices.",
+      "steps": []
+    },
+    "datacamp_r": {
+      "id": "datacamp_r",
+      "title": "R Programming Fundamentals",
+      "steps_total": 0,
+      "steps_completed": [],
+      "percent_complete": 0.0,
+      "last_activity": "2025-10-15",
+      "notes": "A comprehensive course on R programming fundamentals.",
+      "steps": []
+    },
+    "coursera_cbap": {
+      "id": "coursera_cbap",
+      "title": "Certified Business Analysis Professional",
+      "steps_total": 4,
+      "steps_completed": [
+        "C-CBAP-1",
+        "C-CBAP-2"
+      ],
+      "percent_complete": 50.0,
+      "last_activity": "2025-10-20",
+      "notes": "Learn the fundamentals of business analysis and prepare for the CBAP certification.",
+      "steps": [
+        {
+          "id": "C-CBAP-1",
+          "title": "Business Analysis: Key Definitions & Strategy Analysis",
+          "completed": true,
+          "last_activity": "2025-10-12"
+        },
+        {
+          "id": "C-CBAP-2",
+          "title": "Advanced Business Analysis: Elicitation & Analysis",
+          "completed": true,
+          "last_activity": "2025-10-20"
+        },
+        {
+          "id": "C-CBAP-3",
+          "title": "Advanced Requirements Management & Solutions Evaluation",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "C-CBAP-4",
+          "title": "Business Analysis Mastery: Planning, Skills, and Perspective",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    },
+    "ibm_bi": {
+      "id": "ibm_bi",
+      "title": "IBM Business Intelligence (BI) Analyst",
+      "steps_total": 10,
+      "steps_completed": [
+        "IBM-BI-1",
+        "IBM-BI-2"
+      ],
+      "percent_complete": 20.0,
+      "last_activity": "2025-10-25",
+      "notes": "A comprehensive course on IBM Business Intelligence tools and techniques.",
+      "steps": [
+        {
+          "id": "IBM-BI-1",
+          "title": "Business Intelligence Essentials",
+          "completed": true,
+          "last_activity": "2025-10-23"
+        },
+        {
+          "id": "IBM-BI-2",
+          "title": "Excel Basics for Data Analysis",
+          "completed": true,
+          "last_activity": "2025-10-25"
+        },
+        {
+          "id": "IBM-BI-3",
+          "title": "Data Visualization and Dashboards with Excel and Cognos",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-BI-4",
+          "title": "Introduction to Relational Databases (RDBMS)",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-BI-5",
+          "title": "SQL: A Practical Introduction for Querying Databases",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-BI-6",
+          "title": "Data Warehouse Fundamentals",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-BI-7",
+          "title": "Statistical Analysis Fundamentals using Excel",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-BI-8",
+          "title": "Getting Started with Tableau",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-BI-9",
+          "title": "Advanced Data Visualization with Tableau",
+          "completed": false,
+          "last_activity": null
+        },
+        {
+          "id": "IBM-BI-10",
+          "title": "The Business Intelligence (BI) Analyst Capstone",
+          "completed": false,
+          "last_activity": null
+        }
+      ]
+    }
+  },
+  "orphans": []
+}
