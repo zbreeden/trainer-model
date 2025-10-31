@@ -276,8 +276,8 @@
             const target = (typeof t.control_flow_target === 'number') ? t.control_flow_target : 150;
             // displayPercent is computed above (0-100); format one decimal place
             const percentDisplay = (displayPercent !== null && !isNaN(displayPercent)) ? (Math.round(displayPercent * 10) / 10) + '%' : percentText;
-            // include target and percent in the card title for quick glance
-            title.textContent = `${t.title || k} — Target: ${target} — ${percentDisplay}`;
+            // keep the title simple (only the training title) per UI request
+            title.textContent = t.title || k;
             last.style.fontSize = '0.85rem';
             last.style.color = '#888';
             last.style.marginBottom = '0.5rem';
@@ -302,9 +302,10 @@
             (t.steps || []).forEach(s => {
               const li = document.createElement('li');
               const stepName = (s && (s.step_id_name || s.title || s.id || s.step_id)) || String(s);
-              const count = s && (s.count || s.count === 0) ? `(${s.count})` : '';
-              const status = s && s.status ? ` ${s.status}` : '';
-              li.textContent = `${stepName} ${count}${status}`.trim();
+              // show symbol for completion: ✅ for true, ❌ for false
+              const isCompleted = (s && typeof s.completed !== 'undefined') ? Boolean(s.completed) : false;
+              const symbol = isCompleted ? '✅' : '❌';
+              li.textContent = `${stepName} — ${symbol}`;
               stepsList.appendChild(li);
             });
             details.appendChild(stepsList);
