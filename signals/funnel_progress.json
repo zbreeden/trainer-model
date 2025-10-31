@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-27T22:22:25Z",
+  "generated_at": "2025-10-30T19:27:43Z",
   "trainings": {
     "datacamp_excel": {
       "id": "datacamp_excel",
@@ -50,9 +50,11 @@
       "title": "Python Data Fundamentals",
       "steps_total": 9,
       "steps_completed": [
-        "DC-PY-1"
+        "DC-PY-1",
+        "DC-PY-2",
+        "DC-PY-3"
       ],
-      "percent_complete": 11.1111,
+      "percent_complete": 33.3333,
       "last_activity": "2025-10-23",
       "notes": "A comprehensive course on Python programming for data analysis.",
       "steps": [
@@ -65,14 +67,14 @@
         {
           "id": "DC-PY-2",
           "title": "Intermediate Python",
-          "completed": false,
+          "completed": true,
           "last_activity": "2025-10-23"
         },
         {
           "id": "DC-PY-3",
           "title": "Project: Investigating Netflix Movies",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-10-28"
         },
         {
           "id": "DC-PY-4",
@@ -118,14 +120,14 @@
       "steps_total": 5,
       "steps_completed": [],
       "percent_complete": 0.0,
-      "last_activity": "2025-10-24",
+      "last_activity": "2025-10-30",
       "notes": "A comprehensive course on Python, SQL, and Tableau for data science.",
       "steps": [
         {
           "id": "C-PYSQLTAB-1",
           "title": "SQL for Data Science (and version control with GitHub)",
           "completed": false,
-          "last_activity": "2025-10-24"
+          "last_activity": "2025-10-30"
         },
         {
           "id": "C-PYSQLTAB-2",
@@ -234,10 +236,11 @@
       "steps_completed": [
         "SL-SQL-1",
         "SL-SQL-2",
-        "SL-SQL-3"
+        "SL-SQL-3",
+        "SL-SQL-4"
       ],
-      "percent_complete": 75.0,
-      "last_activity": "2025-10-27",
+      "percent_complete": 100.0,
+      "last_activity": "2025-10-28",
       "notes": "A comprehensive course on SQL fundamentals.",
       "steps": [
         {
@@ -261,8 +264,8 @@
         {
           "id": "SL-SQL-4",
           "title": "Data Analysis",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-10-28"
         }
       ]
     },
@@ -384,9 +387,10 @@
       "steps_total": 5,
       "steps_completed": [
         "SL-CSHARP-1",
-        "SL-CSHARP-2"
+        "SL-CSHARP-2",
+        "SL-CSHARP-3"
       ],
-      "percent_complete": 40.0,
+      "percent_complete": 60.0,
       "last_activity": "2025-10-26",
       "notes": "A comprehensive course on C# fundamentals.",
       "steps": [
@@ -405,7 +409,7 @@
         {
           "id": "SL-CSHARP-3",
           "title": "Decision Making",
-          "completed": false,
+          "completed": true,
           "last_activity": "2025-10-26"
         },
         {
@@ -432,7 +436,7 @@
         "SL-JS-3"
       ],
       "percent_complete": 75.0,
-      "last_activity": "2025-10-19",
+      "last_activity": "2025-10-29",
       "notes": "A comprehensive course on JavaScript fundamentals.",
       "steps": [
         {
@@ -457,7 +461,7 @@
           "id": "SL-JS-4",
           "title": "Control Flow",
           "completed": false,
-          "last_activity": null
+          "last_activity": "2025-10-29"
         }
       ]
     },
@@ -745,10 +749,11 @@
       "steps_total": 15,
       "steps_completed": [
         "TAOS-1",
-        "TAOS-2"
+        "TAOS-2",
+        "TAOS-3"
       ],
       "percent_complete": 13.3333,
-      "last_activity": "2025-10-18",
+      "last_activity": "2025-10-30",
       "notes": "A comprehensive book on statistical concepts and their applications.",
       "steps": [
         {
@@ -766,8 +771,8 @@
         {
           "id": "TAOS-3",
           "title": "Summarizing and Communicating Numbers: Lots of Numbers",
-          "completed": false,
-          "last_activity": "2025-10-18"
+          "completed": true,
+          "last_activity": "2025-10-30"
         },
         {
           "id": "TAOS-4",
@@ -1089,10 +1094,12 @@
       "steps_total": 12,
       "steps_completed": [
         "TDD-1",
-        "TDD-2"
+        "TDD-2",
+        "TDD-3",
+        "TDD-4"
       ],
-      "percent_complete": 16.6667,
-      "last_activity": "2025-10-25",
+      "percent_complete": 33.3333,
+      "last_activity": "2025-10-28",
       "notes": "A comprehensive book on statistical concepts and their applications.",
       "steps": [
         {
@@ -1110,14 +1117,14 @@
         {
           "id": "TDD-3",
           "title": "Rule Two: Ponder your Personal Experience",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-10-27"
         },
         {
           "id": "TDD-4",
           "title": "Rule Three: Avoid Premature Enumeration",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-10-28"
         },
         {
           "id": "TDD-5",
@@ -1166,6 +1173,88 @@
           "title": "The Golden Rule: Be Curious",
           "completed": false,
           "last_activity": null
+        }
+      ]
+    },
+    "word_workout": {
+      "id": "word_workout",
+      "title": "Word Workout",
+      "steps_total": 10,
+      "steps_completed": [
+        "WW-1",
+        "WW-2",
+        "WW-3",
+        "WW-4",
+        "WW-5",
+        "WW-6",
+        "WW-7",
+        "WW-8",
+        "WW-9",
+        "WW-10"
+      ],
+      "percent_complete": 100.0,
+      "last_activity": "2025-10-29",
+      "notes": "A fun and engaging way to improve vocabulary and language skills.",
+      "steps": [
+        {
+          "id": "WW-1",
+          "title": "Depravity: Wickedness, moral preversion, corrupt or evil character or behavior",
+          "completed": true,
+          "last_activity": "2025-10-28"
+        },
+        {
+          "id": "WW-2",
+          "title": "Presumptuous: Overstepping due bounds (as of propriety or courtesy); taking liberties",
+          "completed": true,
+          "last_activity": "2025-10-28"
+        },
+        {
+          "id": "WW-3",
+          "title": "Grandiose: Characterized by affectation of grandeur or splendor or by absurd exaggeration",
+          "completed": true,
+          "last_activity": "2025-10-28"
+        },
+        {
+          "id": "WW-4",
+          "title": "Disseminate: To scatter or spread widely, as though sowing seed; promulgate extensively; broadcast; disperse",
+          "completed": true,
+          "last_activity": "2025-10-28"
+        },
+        {
+          "id": "WW-5",
+          "title": "Eclectic: Deriving ideas, style, or taste from a broad and diverse range of sources",
+          "completed": true,
+          "last_activity": "2025-10-28"
+        },
+        {
+          "id": "WW-6",
+          "title": "Servile: Excessive willingness to serve or please others; submissive",
+          "completed": true,
+          "last_activity": "2025-10-28"
+        },
+        {
+          "id": "WW-7",
+          "title": "Voracious: Having a huge appetite, excessively eager",
+          "completed": true,
+          "last_activity": "2025-10-28"
+        },
+        {
+          "id": "WW-8",
+          "title": "Convoluted: Extremely complex and difficult to follow",
+          "completed": true,
+          "last_activity": "2025-10-28"
+        },
+        {
+          "id": "WW-9",
+          "title": "Rant: A long, angry, and impassioned speech",
+          "completed": true,
+          "last_activity": "2025-10-29"
+        },
+        {
+          "id": "WW-10",
+          "title": "Strategum: A plan or scheme, especially one used to outwit an opponent or achieve an end",
+          "completed": true,
+          "last_activity": "2025-10-29"
         }
       ]
     },
