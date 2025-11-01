@@ -974,10 +974,12 @@
         "BADH-3",
         "BADH-4",
         "BADH-5",
-        "BADH-6"
+        "BADH-6",
+        "BADH-7",
+        "BADH-8"
       ],
-      "percent_complete": 33.3333,
-      "last_activity": "2025-10-25",
+      "percent_complete": 44.4444,
+      "last_activity": "2025-11-01",
       "notes": "A practical guide to data analysis and visualization.",
       "steps": [
         {
@@ -1019,20 +1021,20 @@
         {
           "id": "BADH-7",
           "title": "Chapter 4: Argue with the Data",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-10-30"
         },
         {
           "id": "BADH-8",
           "title": "Chapter 5: Explore the Data",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-01"
         },
         {
           "id": "BADH-9",
           "title": "Chapter 6: Examine the Probabilities",
           "completed": false,
-          "last_activity": null
+          "last_activity": "2025-11-01"
         },
         {
           "id": "BADH-10",
