@@ -433,10 +433,11 @@
       "steps_completed": [
         "SL-JS-1",
         "SL-JS-2",
-        "SL-JS-3"
+        "SL-JS-3",
+        "SL-JS-4"
       ],
-      "percent_complete": 75.0,
-      "last_activity": "2025-10-29",
+      "percent_complete": 100.0,
+      "last_activity": "2025-10-31",
       "notes": "A comprehensive course on JavaScript fundamentals.",
       "steps": [
         {
@@ -460,8 +461,8 @@
         {
           "id": "SL-JS-4",
           "title": "Control Flow",
-          "completed": false,
-          "last_activity": "2025-10-29"
+          "completed": true,
+          "last_activity": "2025-10-31"
         }
       ]
     },
@@ -858,9 +859,10 @@
         "NS-3",
         "NS-4",
         "NS-5",
-        "NS-6"
+        "NS-6",
+        "NS-7"
       ],
-      "percent_complete": 37.5,
+      "percent_complete": 43.75,
       "last_activity": "2025-10-21",
       "notes": "An engaging book on statistical concepts and their real-world applications.",
       "steps": [
@@ -903,8 +905,8 @@
         {
           "id": "NS-7",
           "title": "Chapter 5.5: The Monty Hall Problem",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-10-31"
         },
         {
           "id": "NS-8",
@@ -1090,16 +1092,17 @@
     },
     "the_data_detective": {
       "id": "the_data_detective",
-      "title": "The Data Detective by David Spiegelhalter",
+      "title": "The Data Detective by Tim Hartford",
       "steps_total": 12,
       "steps_completed": [
         "TDD-1",
         "TDD-2",
         "TDD-3",
-        "TDD-4"
+        "TDD-4",
+        "TDD-5"
       ],
-      "percent_complete": 33.3333,
-      "last_activity": "2025-10-28",
+      "percent_complete": 41.6667,
+      "last_activity": "2025-10-31",
       "notes": "A comprehensive book on statistical concepts and their applications.",
       "steps": [
         {
@@ -1129,8 +1132,8 @@
         {
           "id": "TDD-5",
           "title": "Rule Four: Step Back and Enjoy the View",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-10-31"
         },
         {
           "id": "TDD-6",
