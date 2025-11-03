@@ -328,7 +328,7 @@
         "MICRO-PBI-1"
       ],
       "percent_complete": 12.5,
-      "last_activity": "2025-10-25",
+      "last_activity": "2025-11-02",
       "notes": "A comprehensive course on Power BI basics and essential features.",
       "steps": [
         {
@@ -341,7 +341,7 @@
           "id": "MICRO-PBI-2",
           "title": "Harnessing the Power of Data with Power BI",
           "completed": false,
-          "last_activity": "2025-10-25"
+          "last_activity": "2025-11-02"
         },
         {
           "id": "MICRO-PBI-3",
@@ -472,10 +472,11 @@
       "steps_total": 4,
       "steps_completed": [
         "SL-HTML-1",
-        "SL-HTML-2"
+        "SL-HTML-2",
+        "SL-HTML-3"
       ],
-      "percent_complete": 50.0,
-      "last_activity": "2025-10-15",
+      "percent_complete": 75.0,
+      "last_activity": "2025-11-01",
       "notes": "A comprehensive course on HTML fundamentals.",
       "steps": [
         {
@@ -493,8 +494,8 @@
         {
           "id": "SL-HTML-3",
           "title": "Using Attributes",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-01"
         },
         {
           "id": "SL-HTML-4",
@@ -1101,10 +1102,11 @@
         "TDD-2",
         "TDD-3",
         "TDD-4",
-        "TDD-5"
+        "TDD-5",
+        "TDD-6"
       ],
-      "percent_complete": 41.6667,
-      "last_activity": "2025-10-31",
+      "percent_complete": 50.0,
+      "last_activity": "2025-11-02",
       "notes": "A comprehensive book on statistical concepts and their applications.",
       "steps": [
         {
@@ -1140,8 +1142,8 @@
         {
           "id": "TDD-6",
           "title": "Rule Five: Get the Backstory",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-02"
         },
         {
           "id": "TDD-7",
@@ -1195,10 +1197,11 @@
         "WW-7",
         "WW-8",
         "WW-9",
-        "WW-10"
+        "WW-10",
+        "WW-11"
       ],
       "percent_complete": 100.0,
-      "last_activity": "2025-10-29",
+      "last_activity": "2025-11-01",
       "notes": "A fun and engaging way to improve vocabulary and language skills.",
       "steps": [
         {
@@ -1260,6 +1263,12 @@
           "title": "Strategum: A plan or scheme, especially one used to outwit an opponent or achieve an end",
           "completed": true,
           "last_activity": "2025-10-29"
+        },
+        {
+          "id": "WW-11",
+          "title": "Emaciated: Abnormally thin or weak, especially because of illness or a lack of food",
+          "completed": true,
+          "last_activity": "2025-11-01"
         }
       ]
     },
@@ -1363,7 +1372,7 @@
         "IBM-BI-2"
       ],
       "percent_complete": 20.0,
-      "last_activity": "2025-10-25",
+      "last_activity": "2025-11-02",
       "notes": "A comprehensive course on IBM Business Intelligence tools and techniques.",
       "steps": [
         {
@@ -1382,7 +1391,7 @@
           "id": "IBM-BI-3",
           "title": "Data Visualization and Dashboards with Excel and Cognos",
           "completed": false,
-          "last_activity": null
+          "last_activity": "2025-11-02"
         },
         {
           "id": "IBM-BI-4",
