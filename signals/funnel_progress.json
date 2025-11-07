@@ -120,14 +120,14 @@
       "steps_total": 5,
       "steps_completed": [],
       "percent_complete": 0.0,
-      "last_activity": "2025-10-30",
+      "last_activity": "2025-11-06",
       "notes": "A comprehensive course on Python, SQL, and Tableau for data science.",
       "steps": [
         {
           "id": "C-PYSQLTAB-1",
           "title": "SQL for Data Science (and version control with GitHub)",
           "completed": false,
-          "last_activity": "2025-10-30"
+          "last_activity": "2025-11-06"
         },
         {
           "id": "C-PYSQLTAB-2",
@@ -328,7 +328,7 @@
         "MICRO-PBI-1"
       ],
       "percent_complete": 12.5,
-      "last_activity": "2025-11-02",
+      "last_activity": "2025-11-06",
       "notes": "A comprehensive course on Power BI basics and essential features.",
       "steps": [
         {
@@ -341,7 +341,7 @@
           "id": "MICRO-PBI-2",
           "title": "Harnessing the Power of Data with Power BI",
           "completed": false,
-          "last_activity": "2025-11-02"
+          "last_activity": "2025-11-06"
         },
         {
           "id": "MICRO-PBI-3",
@@ -511,10 +511,12 @@
       "steps_total": 4,
       "steps_completed": [
         "SL-CSS-1",
-        "SL-CSS-2"
+        "SL-CSS-2",
+        "SL-CSS-3",
+        "SL-CSS-4"
       ],
-      "percent_complete": 50.0,
-      "last_activity": "2025-10-11",
+      "percent_complete": 100.00,
+      "last_activity": "2025-11-06",
       "notes": "A comprehensive course on CSS fundamentals.",
       "steps": [
         {
@@ -532,14 +534,14 @@
         {
           "id": "SL-CSS-3",
           "title": "Page Design and Layout",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-06"
         },
         {
           "id": "SL-CSS-4",
           "title": "Transitions and Transforms",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-06"
         }
       ]
     },
@@ -632,10 +634,15 @@
         "SL-CODE-2",
         "SL-CODE-3",
         "SL-CODE-4",
-        "SL-CODE-5"
+        "SL-CODE-5",
+        "SL-CODE-6",
+        "SL-CODE-7",
+        "SL-CODE-8",
+        "SL-CODE-9",
+        "SL-CODE-10"
       ],
-      "percent_complete": 50.0,
-      "last_activity": "2025-10-20",
+      "percent_complete": 100.0,
+      "last_activity": "2025-11-06",
       "notes": "A comprehensive course on data analysis techniques and tools.",
       "steps": [
         {
@@ -671,32 +678,32 @@
         {
           "id": "SL-CODE-6",
           "title": "Functions",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-06"
         },
         {
           "id": "SL-CODE-7",
           "title": "Getting Started with SQL",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-06"
         },
         {
           "id": "SL-CODE-8",
           "title": "Going Deeper with SQL",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-06",
         },
         {
           "id": "SL-CODE-9",
           "title": "Query Techniques",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-06"
         },
         {
           "id": "SL-CODE-10",
           "title": "Data Analysis",
-          "completed": false,
-          "last_activity": null
+          "completed": true,
+          "last_activity": "2025-11-06"
         }
       ]
     },
@@ -710,7 +717,7 @@
         "LBOD-3"
       ],
       "percent_complete": 60.0,
-      "last_activity": "2025-11-01",
+      "last_activity": "2025-11-06",
       "notes": "An introductory book on data science concepts and techniques.",
       "steps": [
         {
@@ -735,7 +742,7 @@
           "id": "LBOD-4",
           "title": "Part 4: How We Use Data",
           "completed": false,
-          "last_activity": "2025-11-01"
+          "last_activity": "2025-11-06"
         },
         {
           "id": "LBOD-5",
